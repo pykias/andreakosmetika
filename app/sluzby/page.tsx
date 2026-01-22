@@ -22,7 +22,7 @@ export default function ServicesPage() {
             Naše služby
           </h1>
           <p className="text-lg text-brand-text-light mb-8">
-            Nabízíme kompletní škálu profesionálních kadeřnických služeb. 
+            Nabízíme kompletní škálu profesionálních kosmetických služeb. 
             Každý klient je pro nás jedinečný a zaslouží si individuální přístup.
           </p>
           <BookingCTA size="lg" className="btn-primary" />

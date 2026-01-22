@@ -27,7 +27,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <span className="text-xl font-display font-bold text-brand-text">
-                Salon Andrea
+                Kosmetický salon Andrea
               </span>
               <span className="ml-2 text-sm text-brand-text-light">
                 Bohunice

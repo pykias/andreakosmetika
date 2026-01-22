@@ -24,7 +24,7 @@ export default function HomePage() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-6xl font-display font-bold text-brand-text mb-6"
           >
-            Salon Andrea
+            Kosmetický salon Andrea
             <span className="block text-2xl md:text-3xl font-normal text-brand-brown mt-2">
               Bohunice
             </span>
@@ -36,8 +36,8 @@ export default function HomePage() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-brand-text-light max-w-2xl mx-auto mb-8"
           >
-            Profesionální kadeřnické služby s individuálním přístupem. 
-            Vytvoříme pro vás účes, který podtrhne vaši jedinečnost.
+            Profesionální kosmetické služby s individuálním přístupem. 
+            Pečujeme o vaši pleť, aby zářila zdravím a krásou.
           </motion.p>
           
           <motion.div
@@ -97,7 +97,7 @@ export default function HomePage() {
               Naše nejoblíbenější služby
             </h2>
             <p className="text-brand-text-light max-w-2xl mx-auto">
-              Nabízíme širokou škálu profesionálních kadeřnických služeb
+              Nabízíme širokou škálu profesionálních kosmetických služeb
             </p>
           </motion.div>
 
@@ -209,7 +209,7 @@ export default function HomePage() {
               Připraveni na změnu?
             </h2>
             <p className="text-lg text-brand-text-light max-w-2xl mx-auto mb-8">
-              Rezervujte si termín ještě dnes a dopřejte svým vlasům péči, kterou si zaslouží
+              Rezervujte si termín ještě dnes a dopřejte své pleti péči, kterou si zaslouží
             </p>
             <BookingCTA size="lg" className="btn-primary" text="Rezervovat termín" />
           </motion.div>

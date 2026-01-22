@@ -5,14 +5,14 @@ import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
 
 export const metadata: Metadata = {
-  title: "Salon Andrea Bohunice - Profesionální kadeřnické služby",
-  description: "Profesionální kadeřnické a beauty služby v Brně-Bohunicích. Střihy, barvení, styling a péče o vlasy.",
-  keywords: "kadeřnictví, beauty salon, Bohunice, Brno, střih, barvení, účesy",
+  title: "Kosmetický salon Andrea Bohunice - Profesionální kosmetické služby",
+  description: "Profesionální kosmetické služby v Brně-Bohunicích. Ošetření pleti, masáže, líčení a wellness procedury.",
+  keywords: "kosmetika, kosmetický salon, Bohunice, Brno, ošetření pleti, masáže, líčení",
   openGraph: {
-    title: "Salon Andrea Bohunice",
-    description: "Profesionální kadeřnické a beauty služby v Brně-Bohunicích",
+    title: "Kosmetický salon Andrea Bohunice",
+    description: "Profesionální kosmetické služby v Brně-Bohunicích",
     url: "https://salonandrea.cz",
-    siteName: "Salon Andrea Bohunice",
+    siteName: "Kosmetický salon Andrea Bohunice",
     locale: "cs_CZ",
     type: "website",
   },

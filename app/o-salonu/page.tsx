@@ -19,8 +19,8 @@ export default function AboutPage() {
             O našem salonu
           </h1>
           <p className="text-lg text-brand-text-light">
-            Více než 15 let vytváříme účesy, které dodávají sebevědomí 
-            a podtrhují jedinečnost každého klienta.
+            Více než 15 let pečujeme o vaši pleť s láskou a profesionalitou,
+            abychom podtrhli vaši přirozenou krásu.
           </p>
         </motion.div>
       </section>
@@ -38,7 +38,7 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-4 text-brand-text-light">
               <p>
-                Salon Andrea Bohunice vznikl v roce 2009 s vizí vytvořit místo, 
+                Kosmetický salon Andrea Bohunice vznikl v roce 2009 s vizí vytvořit místo, 
                 kde se každý klient bude cítit výjimečně. Od prvního dne klademe 
                 důraz na individuální přístup a nejvyšší kvalitu služeb.
               </p>
@@ -49,9 +49,9 @@ export default function AboutPage() {
                 lidského přístupu vytváří jedinečnou atmosféru.
               </p>
               <p>
-                Neustále se vzděláváme a sledujeme nejnovější trendy v kadeřnictví, 
+                Neustále se vzděláváme a sledujeme nejnovější trendy v kosmetice, 
                 abychom vám mohli nabídnout to nejlepší. Používáme pouze kvalitní 
-                produkty šetrné k vlasům i životnímu prostředí.
+                produkty šetrné k pleti i životnímu prostředí.
               </p>
             </div>
           </motion.div>
@@ -90,7 +90,7 @@ export default function AboutPage() {
               {
                 icon: Heart,
                 title: "Láska k řemeslu",
-                description: "Kadeřnictví není jen naše práce, je to naše vášeň."
+                description: "Kosmetika není jen naše práce, je to naše vášeň."
               },
               {
                 icon: Users,
@@ -139,12 +139,12 @@ export default function AboutPage() {
             Andrea Nováková
           </h2>
           <p className="text-brand-brown font-medium mb-6">
-            Majitelka salonu a hlavní kadeřnice
+            Majitelka salonu a hlavní kosmetička
           </p>
           <div className="max-w-2xl mx-auto text-brand-text-light space-y-4">
             <p>
               S více než 20 lety zkušeností v oboru je Andrea srdcem našeho salonu. 
-              Její vášeň pro kadeřnictví a neustálá touha po zdokonalování se 
+              Její vášeň pro kosmetiku a neustálá touha po zdokonalování se 
               přenáší na celý tým.
             </p>
             <p>

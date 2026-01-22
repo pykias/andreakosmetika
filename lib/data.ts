@@ -25,67 +25,99 @@ export interface GalleryImage {
 export const services: Service[] = [
   {
     id: "1",
-    name: "Dámský střih a foukaná",
-    category: "Kadeřnictví",
-    description: "Profesionální střih podle vašich představ včetně mytí, střihu a finálního stylingu fénem.",
-    price: "od 650 Kč",
+    name: "Základní ošetření pleti",
+    category: "Kosmetická ošetření",
+    description: "Čištění pleti, peeling, maska podle typu pleti, sérum a závěrečná péče.",
+    price: "od 850 Kč",
     duration: "60 min"
   },
   {
     id: "2",
-    name: "Pánský střih",
-    category: "Kadeřnictví",
-    description: "Moderní pánský střih včetně mytí a základního stylingu.",
-    price: "od 350 Kč",
-    duration: "30 min"
+    name: "Hloubkové čištění pleti",
+    category: "Kosmetická ošetření",
+    description: "Důkladné čištění pleti včetně ultrazvukové špachtle, extrakce a zklidňující masky.",
+    price: "od 1200 Kč",
+    duration: "90 min"
   },
   {
     id: "3",
-    name: "Barvení a melír",
-    category: "Barvení",
-    description: "Profesionální barvení vlasů s použitím šetrných barev. Melírování, tónování nebo celkové barvení.",
-    price: "od 1200 Kč",
-    duration: "120 min"
-  },
-  {
-    id: "4",
-    name: "Balayage / Ombré",
-    category: "Barvení",
-    description: "Moderní techniky barvení pro přirozený vzhled s jemnými přechody.",
-    price: "od 2500 Kč",
-    duration: "180 min"
-  },
-  {
-    id: "5",
-    name: "Společenský účes",
-    category: "Styling",
-    description: "Elegantní účes pro vaši speciální příležitost - svatby, plesy, promoce.",
-    price: "od 800 Kč",
-    duration: "60 min"
-  },
-  {
-    id: "6",
-    name: "Keratin a regenerace",
-    category: "Péče o vlasy",
-    description: "Hloubková regenerace vlasů pomocí keratinové kúry pro hebké a lesklé vlasy.",
+    name: "Anti-age ošetření",
+    category: "Anti-aging",
+    description: "Luxusní ošetření s použitím anti-age produktů, masáž obličeje a lifting maska.",
     price: "od 1500 Kč",
     duration: "90 min"
   },
   {
-    id: "7",
-    name: "Trvalá ondulace",
-    category: "Styling",
-    description: "Moderní trvalá pro objem a tvar vlasů, který vydrží několik měsíců.",
+    id: "4",
+    name: "Chemický peeling",
+    category: "Speciální ošetření",
+    description: "Profesionální chemický peeling pro obnovu pleti a redukci vrásek.",
     price: "od 1800 Kč",
-    duration: "120 min"
+    duration: "60 min"
+  },
+  {
+    id: "5",
+    name: "Mikrojehličkování",
+    category: "Speciální ošetření",
+    description: "Stimulace kolagenu pomocí mikrojehliček pro zpevnění a omlazení pleti.",
+    price: "od 2500 Kč",
+    duration: "90 min"
+  },
+  {
+    id: "6",
+    name: "Lash lifting + barvení",
+    category: "Řasy a obočí",
+    description: "Trvalá na řasy pro přirozený vzhled bez nutnosti používání řasenky.",
+    price: "od 990 Kč",
+    duration: "60 min"
+  },
+  {
+    id: "7",
+    name: "Úprava a barvení obočí",
+    category: "Řasy a obočí",
+    description: "Profesionální tvarování obočí voskem nebo pinzetou včetně barvení.",
+    price: "od 350 Kč",
+    duration: "30 min"
   },
   {
     id: "8",
-    name: "Prodlužování vlasů",
-    category: "Speciální služby",
-    description: "Profesionální prodlužování vlasů metodou keratin nebo micro ring.",
-    price: "od 3500 Kč",
-    duration: "180 min"
+    name: "Relaxační masáž obličeje",
+    category: "Masáže",
+    description: "Uvolňující masáž obličeje, krku a dekoltu s použitím aromatických olejů.",
+    price: "od 650 Kč",
+    duration: "45 min"
+  },
+  {
+    id: "9",
+    name: "Permanentní makeup - obočí",
+    category: "Permanentní makeup",
+    description: "Microblading nebo pudrové obočí pro dlouhodobý efekt.",
+    price: "od 4500 Kč",
+    duration: "120 min"
+  },
+  {
+    id: "10",
+    name: "Depilace voskem - horní ret",
+    category: "Depilace",
+    description: "Šetrná depilace horního rtu teplým voskem.",
+    price: "150 Kč",
+    duration: "15 min"
+  },
+  {
+    id: "11",
+    name: "Depilace voskem - nohy celé",
+    category: "Depilace",
+    description: "Kompletní depilace nohou včetně lýtek a stehen.",
+    price: "od 750 Kč",
+    duration: "60 min"
+  },
+  {
+    id: "12",
+    name: "Brazilská depilace",
+    category: "Depilace",
+    description: "Intimní depilace teplým voskem.",
+    price: "od 650 Kč",
+    duration: "45 min"
   }
 ];
 
@@ -94,101 +126,82 @@ export const reviews: Review[] = [
     id: "1",
     name: "Markéta N.",
     rating: 5,
-    text: "Skvělý přístup a profesionální služby. Andrea vždy ví, co mým vlasům prospěje nejlépe. Vřele doporučuji!",
+    text: "Skvělý přístup a profesionální služby. Andrea vždy ví, co mé pleti prospěje nejlépe. Vřele doporučuji!",
     date: "2024-01-15"
   },
   {
     id: "2",
     name: "Jana K.",
     rating: 5,
-    text: "Chodím sem už několik let a vždy odcházím spokojená. Příjemné prostředí a milý personál.",
-    date: "2024-01-10"
+    text: "Navštěvuji salon pravidelně už 3 roky. Vždy odcházím spokojená a relaxovaná. Nejlepší kosmetika v Bohunicích!",
+    date: "2024-01-20"
   },
   {
     id: "3",
     name: "Petra S.",
     rating: 5,
-    text: "Nejlepší salon v Bohunicích! Andrea má zlaté ruce a vždy mi poradí s péčí o vlasy.",
-    date: "2023-12-20"
+    text: "Profesionální přístup, příjemné prostředí a skvělé výsledky. Moje pleť nikdy nevypadala lépe!",
+    date: "2024-01-28"
   },
   {
     id: "4",
     name: "Lucie M.",
     rating: 5,
-    text: "Perfektní balayage, přesně podle mých představ. Oceňuji individuální přístup a péči.",
-    date: "2023-12-15"
+    text: "Andrea je úžasná kosmetička s mnohaletými zkušenostmi. Vždy poradí, co je pro mou pleť nejlepší.",
+    date: "2024-02-05"
   },
   {
     id: "5",
-    name: "Eva D.",
-    rating: 5,
-    text: "Profesionální služby za rozumné ceny. Vždy se sem ráda vracím.",
-    date: "2023-11-28"
-  },
-  {
-    id: "6",
     name: "Tereza V.",
     rating: 5,
-    text: "Andrea je úžasná! Vždy pochopí, co chci, a výsledek předčí mé očekávání.",
-    date: "2023-11-20"
+    text: "Doporučila mi kamarádka a nelituji. Příjemná atmosféra a viditelné výsledky už po prvním ošetření.",
+    date: "2024-02-10"
   }
 ];
 
 export const galleryImages: GalleryImage[] = [
   {
     id: "1",
-    src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800",
-    alt: "Moderní účes",
-    category: "Účesy"
+    src: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800",
+    alt: "Kosmetické ošetření",
+    category: "Ošetření"
   },
   {
     id: "2",
-    src: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=800",
-    alt: "Barvení vlasů",
-    category: "Barvení"
+    src: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800",
+    alt: "Relaxační masáž",
+    category: "Masáže"
   },
   {
     id: "3",
-    src: "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800",
+    src: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800",
+    alt: "Kosmetické produkty",
+    category: "Produkty"
+  },
+  {
+    id: "4",
+    src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800",
     alt: "Interiér salonu",
     category: "Salon"
   },
   {
-    id: "4",
-    src: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800",
-    alt: "Společenský účes",
-    category: "Účesy"
-  },
-  {
     id: "5",
-    src: "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=800",
-    alt: "Balayage",
-    category: "Barvení"
+    src: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=800",
+    alt: "Permanentní makeup",
+    category: "Makeup"
   },
   {
     id: "6",
-    src: "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800",
-    alt: "Kadeřnické křeslo",
+    src: "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=800",
+    alt: "Kosmetické křeslo",
     category: "Salon"
-  },
-  {
-    id: "7",
-    src: "https://images.unsplash.com/photo-1553521041-d168abd31de3?w=800",
-    alt: "Krátký střih",
-    category: "Účesy"
-  },
-  {
-    id: "8",
-    src: "https://images.unsplash.com/photo-1581404732211-15320e300e32?w=800",
-    alt: "Melírování",
-    category: "Barvení"
   }
 ];
 
 export const salonInfo = {
-  name: "Salon Andrea Bohunice",
-  address: "Lány 3, 625 00 Brno-Bohunice",
-  phone: "+420 123 456 789",
+  name: "Kosmetický salon Andrea Bohunice",
+  address: "Dlouhá 123, 625 00 Brno-Bohunice",
+  phone: "+420 777 123 456",
   email: "info@salonandrea.cz",
   ico: "12345678",
   openingHours: {
@@ -201,10 +214,8 @@ export const salonInfo = {
     sunday: "Zavřeno"
   },
   social: {
-    facebook: "https://facebook.com/salonandreabohunice",
-    instagram: "https://instagram.com/salon_andrea_bohunice",
-    google: "https://g.page/salon-andrea-bohunice"
-  },
-  bookingUrl: "https://booking.example.com/salon-andrea",
-  mapUrl: "https://maps.google.com/?q=Salon+Andrea+Bohunice+Lany+3+Brno"
+    facebook: "https://www.facebook.com/salonandrea",
+    instagram: "https://www.instagram.com/salonandrea",
+    google: "https://g.page/salonandrea"
+  }
 };

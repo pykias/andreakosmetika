@@ -9,10 +9,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="font-display text-lg font-semibold text-brand-text mb-4">
-              Salon Andrea Bohunice
+              Kosmetický salon Andrea Bohunice
             </h3>
             <p className="text-sm text-brand-text-light mb-4">
-              Profesionální kadeřnické služby v srdci Bohunic. Váš vzhled je naší prioritou.
+              Profesionální kosmetické služby v srdci Bohunic. Vaše krása je naší prioritou.
             </p>
             <div className="flex gap-4">
               <a
@@ -132,7 +132,7 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-border">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-xs text-brand-text-muted">
-              © 2024 Salon Andrea Bohunice. Všechna práva vyhrazena.
+              © 2024 Kosmetický salon Andrea Bohunice. Všechna práva vyhrazena.
             </p>
             <p className="text-xs text-brand-text-muted">
               IČO: {salonInfo.ico}
