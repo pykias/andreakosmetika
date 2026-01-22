@@ -72,8 +72,8 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
-        display: ["Playfair Display", "serif"],
+        sans: ["Satoshi", "system-ui", "sans-serif"],
+        display: ["Satoshi", "system-ui", "sans-serif"],
       },
       animation: {
         "fade-in": "fadeIn 0.5s ease-in-out",
