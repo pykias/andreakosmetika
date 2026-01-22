@@ -7,7 +7,7 @@ import BookingCTA from "@/components/BookingCTA";
 import { services } from "@/lib/data";
 
 export default function ServicesPage() {
-  const categories = [...new Set(services.map(s => s.category))];
+  const categories = Array.from(new Set(services.map(s => s.category)));
 
   return (
     <div className="py-12">

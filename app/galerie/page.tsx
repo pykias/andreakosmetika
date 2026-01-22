@@ -11,7 +11,7 @@ export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<typeof galleryImages[0] | null>(null);
   const [filter, setFilter] = useState<string>("all");
   
-  const categories = ["all", ...new Set(galleryImages.map(img => img.category))];
+  const categories = ["all", ...Array.from(new Set(galleryImages.map(img => img.category)))];
   const filteredImages = filter === "all" 
     ? galleryImages 
     : galleryImages.filter(img => img.category === filter);

@@ -6,7 +6,7 @@ import { Info } from "lucide-react";
 import BookingCTA from "@/components/BookingCTA";
 
 export default function PriceListPage() {
-  const categories = [...new Set(services.map(s => s.category))];
+  const categories = Array.from(new Set(services.map(s => s.category)));
 
   return (
     <div className="py-12">

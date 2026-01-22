@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { X, Cookie, Shield, ChartBar, Settings } from "lucide-react";
+import { X, Cookie, Shield, BarChart, Settings } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
@@ -201,7 +201,7 @@ export default function CookieBanner() {
                     />
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-1">
-                        <ChartBar className="h-4 w-4 text-blue-600" />
+                        <BarChart className="h-4 w-4 text-blue-600" />
                         <h3 className="font-semibold text-brand-text">
                           Analytické cookies
                         </h3>
@@ -225,7 +225,7 @@ export default function CookieBanner() {
                     />
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-1">
-                        <ChartBar className="h-4 w-4 text-purple-600" />
+                        <BarChart className="h-4 w-4 text-purple-600" />
                         <h3 className="font-semibold text-brand-text">
                           Marketingové cookies
                         </h3>
