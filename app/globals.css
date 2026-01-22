@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 33% 97%;
+    --foreground: 24 24% 12%;
+    
+    --primary: 30 35% 86%;
+    --primary-foreground: 24 24% 12%;
+    
+    --secondary: 25 30% 60%;
+    --secondary-foreground: 30 33% 97%;
+    
+    --muted: 30 20% 94%;
+    --muted-foreground: 24 12% 45%;
+    
+    --accent: 28 32% 80%;
+    --accent-foreground: 24 24% 12%;
+    
+    --card: 30 30% 98%;
+    --card-foreground: 24 24% 12%;
+    
+    --popover: 30 30% 98%;
+    --popover-foreground: 24 24% 12%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 30 33% 97%;
+    
+    --border: 30 20% 88%;
+    --input: 30 20% 88%;
+    --ring: 25 30% 60%;
+    
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+  
+  .btn-primary {
+    @apply bg-brand-brown text-white hover:bg-brand-brown-dark transition-all duration-300 
+           shadow-md hover:shadow-lg transform hover:-translate-y-0.5;
+  }
+  
+  .btn-secondary {
+    @apply bg-brand-beige text-brand-text hover:bg-brand-beige-dark transition-all duration-300
+           shadow-md hover:shadow-lg transform hover:-translate-y-0.5;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-brand-brown via-brand-brown-light to-brand-beige-dark 
+           bg-clip-text text-transparent;
+  }
+}
