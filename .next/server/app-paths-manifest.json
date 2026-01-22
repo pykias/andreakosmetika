@@ -1,7 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/kontakt/page": "app/kontakt/page.js",
-  "/sluzby/page": "app/sluzby/page.js",
-  "/galerie/page": "app/galerie/page.js",
-  "/o-salonu/page": "app/o-salonu/page.js"
-}
