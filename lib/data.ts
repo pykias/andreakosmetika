@@ -23,101 +23,152 @@ export interface GalleryImage {
 }
 
 export const services: Service[] = [
+  // Kosmetická ošetření
   {
     id: "1",
-    name: "Základní ošetření pleti",
+    name: "Klasická kosmetika",
     category: "Kosmetická ošetření",
-    description: "Čištění pleti, peeling, maska podle typu pleti, sérum a závěrečná péče.",
-    price: "od 850 Kč",
+    description: "Komplexní péče o pleť, která čistí, vyživuje a osvěžuje. Ideální volba pro pravidelnou údržbu a zachování zdravého vzhledu pleti.",
+    price: "1 350 Kč",
     duration: "60 min"
   },
   {
     id: "2",
-    name: "Hloubkové čištění pleti",
+    name: "Speciální kosmetika (aqua, antipigmentační, liftingová)",
     category: "Kosmetická ošetření",
-    description: "Důkladné čištění pleti včetně ultrazvukové špachtle, extrakce a zklidňující masky.",
-    price: "od 1200 Kč",
-    duration: "90 min"
+    description: "Intenzivní ošetření zaměřené na konkrétní potřeby vaší pleti. Ať už toužíte po hloubkové hydrataci, sjednocení tónu nebo zpevnění kontur, tato péče vám pomůže dosáhnout viditelných výsledků.",
+    price: "1 550 Kč",
+    duration: "75 min"
   },
   {
     id: "3",
-    name: "Anti-age ošetření",
-    category: "Anti-aging",
-    description: "Luxusní ošetření s použitím anti-age produktů, masáž obličeje a lifting maska.",
-    price: "od 1500 Kč",
-    duration: "90 min"
+    name: "Chemický peeling",
+    category: "Kosmetická ošetření",
+    description: "Účinná metoda pro obnovu a rozjasnění pleti. Pomáhá redukovat drobné nedokonalosti, pigmentové skvrny a jemné vrásky, pleť působí hladší a svěžejší.",
+    price: "1 700 Kč",
+    duration: "45 min"
   },
   {
     id: "4",
-    name: "Chemický peeling",
-    category: "Speciální ošetření",
-    description: "Profesionální chemický peeling pro obnovu pleti a redukci vrásek.",
-    price: "od 1800 Kč",
+    name: "Mezoterapie",
+    category: "Kosmetická ošetření",
+    description: "Revitalizační ošetření, které dodává pleti potřebné živiny přímo tam, kde je potřebuje. Výsledkem je viditelně hydratovaná, pružnější a zářivější pleť.",
+    price: "2 200–3 500 Kč",
     duration: "60 min"
   },
   {
     id: "5",
-    name: "Mikrojehličkování",
-    category: "Speciální ošetření",
-    description: "Stimulace kolagenu pomocí mikrojehliček pro zpevnění a omlazení pleti.",
-    price: "od 2500 Kč",
-    duration: "90 min"
+    name: "Carboxy / Hollywood peel",
+    category: "Kosmetická ošetření",
+    description: "Luxusní ošetření pro okamžitě zářivou a vypnutou pleť. Oblíbená volba před důležitými událostmi, kdy chcete vypadat co nejlépe.",
+    price: "1 800 Kč",
+    duration: "60 min"
   },
   {
     id: "6",
-    name: "Lash lifting + barvení",
-    category: "Řasy a obočí",
-    description: "Trvalá na řasy pro přirozený vzhled bez nutnosti používání řasenky.",
-    price: "od 990 Kč",
-    duration: "60 min"
+    name: "Studená plazma (součást kosmetiky)",
+    category: "Kosmetická ošetření",
+    description: "Moderní neinvazivní technologie podporující regeneraci a omlazení pleti. Vhodná pro ty, kdo hledají šetrnou cestu k viditelným výsledkům.",
+    price: "1 690 Kč",
+    duration: "45 min"
   },
   {
     id: "7",
-    name: "Úprava a barvení obočí",
-    category: "Řasy a obočí",
-    description: "Profesionální tvarování obočí voskem nebo pinzetou včetně barvení.",
-    price: "od 350 Kč",
-    duration: "30 min"
+    name: "Studená plazma – samostatně",
+    category: "Kosmetická ošetření",
+    description: "Cílené ošetření studenou plazmou pro rychlou regeneraci a revitalizaci pleti. Ideální doplněk k pravidelné péči.",
+    price: "300 Kč",
+    duration: "20 min"
   },
   {
     id: "8",
-    name: "Relaxační masáž obličeje",
-    category: "Masáže",
-    description: "Uvolňující masáž obličeje, krku a dekoltu s použitím aromatických olejů.",
-    price: "od 650 Kč",
-    duration: "45 min"
+    name: "Péče o aknózní a problematickou pleť",
+    category: "Kosmetická ošetření",
+    description: "Specializované ošetření pro pleť náchylnou k nedokonalostem a zánětům. Pomáhá zklidnit, vyčistit a navrátit pleti rovnováhu.",
+    price: "1 300–1 500 Kč",
+    duration: "75 min"
   },
   {
     id: "9",
-    name: "Permanentní makeup - obočí",
-    category: "Permanentní makeup",
-    description: "Microblading nebo pudrové obočí pro dlouhodobý efekt.",
-    price: "od 4500 Kč",
-    duration: "120 min"
+    name: "Hydrodermabraze",
+    category: "Kosmetická ošetření",
+    description: "Šetrná metoda hloubkového čištění a hydratace pleti v jednom. Zanechává pokožku dokonale čistou, jemnou a prosvětlenou.",
+    price: "1 450 Kč",
+    duration: "60 min"
   },
+  // Permanentní make-up
   {
     id: "10",
-    name: "Depilace voskem - horní ret",
-    category: "Depilace",
-    description: "Šetrná depilace horního rtu teplým voskem.",
-    price: "150 Kč",
-    duration: "15 min"
+    name: "Permanentní make-up – horní oční linky",
+    category: "Permanentní make-up",
+    description: "Jemné zvýraznění očí, které dodá pohledu hloubku a výraznost. Úspora času při každodenním líčení a dokonalý vzhled za všech okolností.",
+    price: "2 500 Kč",
+    duration: "90 min"
   },
   {
     id: "11",
-    name: "Depilace voskem - nohy celé",
-    category: "Depilace",
-    description: "Kompletní depilace nohou včetně lýtek a stehen.",
-    price: "od 750 Kč",
-    duration: "60 min"
+    name: "Permanentní make-up – spodní oční linky",
+    category: "Permanentní make-up",
+    description: "Decentní podtržení spodního víčka pro ucelenější a definovanější pohled. Přirozené zvýraznění, které vydrží.",
+    price: "2 000 Kč",
+    duration: "90 min"
   },
   {
     id: "12",
-    name: "Brazilská depilace",
-    category: "Depilace",
-    description: "Intimní depilace teplým voskem.",
-    price: "od 650 Kč",
+    name: "Permanentní make-up – obě linky současně",
+    category: "Permanentní make-up",
+    description: "Kompletní rámování očí pro maximální efekt a harmonický výraz. Elegantní řešení pro ženy, které chtějí mít oči vždy dokonale zvýrazněné.",
+    price: "4 000 Kč",
+    duration: "120 min"
+  },
+  {
+    id: "13",
+    name: "Permanentní make-up – meziřasová linka",
+    category: "Permanentní make-up",
+    description: "Nejpřirozenější forma permanentního make-upu očí. Opticky zahušťuje řasy a dodává pohledu jemnou intenzitu bez viditelné linky.",
+    price: "2 500 Kč",
+    duration: "90 min"
+  },
+  {
+    id: "14",
+    name: "Permanentní make-up – rty",
+    category: "Permanentní make-up",
+    description: "Krásně definované a barevně sjednocené rty, které působí plnějším dojmem. Konec starostí s obtiskávajícím se rtěnkou a nepravidelným obrysem.",
+    price: "4 900 Kč",
+    duration: "120 min"
+  },
+  {
+    id: "15",
+    name: "Korekce PMU (do 4 měsíců)",
+    category: "Permanentní make-up",
+    description: "Oživení a úprava stávajícího permanentního make-upu. Vrátíme barvu, tvar i svěžest vašemu původnímu ošetření.",
+    price: "1 000 Kč",
+    duration: "60 min"
+  },
+  // Odstraňování a korekce
+  {
+    id: "16",
+    name: "Laserové odstranění tetování (PMU i tetování na těle)",
+    category: "Odstraňování a korekce",
+    description: "Bezpečná a účinná metoda pro odstranění nežádoucího tetování. Vhodná jak pro permanentní make-up, tak pro tetování na těle.",
+    price: "od 1 200 Kč / sezení",
+    duration: "30 min"
+  },
+  {
+    id: "17",
+    name: "Chemické zesvětlení tetování",
+    category: "Odstraňování a korekce",
+    description: "Alternativní způsob redukce pigmentu v nežádoucím tetování. Šetrná volba pro ty, kdo chtějí tetování výrazně zesvětlit nebo připravit na překrytí.",
+    price: "cena dle rozsahu",
     duration: "45 min"
+  },
+  {
+    id: "18",
+    name: "Odstraňování jizev (akné, operace, úrazy)",
+    category: "Odstraňování a korekce",
+    description: "Specializovaná péče zaměřená na zmírnění viditelnosti jizev různého původu. Pomáháme pleti obnovit hladší a jednotnější strukturu.",
+    price: "800–3 500 Kč",
+    duration: "60 min"
   }
 ];
 

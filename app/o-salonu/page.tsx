@@ -16,11 +16,10 @@ export default function AboutPage() {
           className="text-center max-w-3xl mx-auto"
         >
           <h1 className="text-4xl md:text-5xl font-display font-bold text-brand-text mb-6">
-            O našem salonu
+            O mně
           </h1>
           <p className="text-lg text-brand-text-light">
-            Více než 15 let pečujeme o vaši pleť s láskou a profesionalitou,
-            abychom podtrhli vaši přirozenou krásu.
+            Více než 21 let se věnuji kosmetice a péči o pleť s vášní a profesionalitou.
           </p>
         </motion.div>
       </section>
@@ -34,24 +33,23 @@ export default function AboutPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl font-display font-semibold text-brand-text mb-6">
-              Náš příběh
+              Můj příběh
             </h2>
             <div className="space-y-4 text-brand-text-light">
               <p>
-                Kosmetický salon Andrea Bohunice vznikl v roce 2009 s vizí vytvořit místo, 
-                kde se každý klient bude cítit výjimečně. Od prvního dne klademe 
-                důraz na individuální přístup a nejvyšší kvalitu služeb.
+                Kosmetice se věnuji více než 21 let a za tu dobu jsem měla možnost
+                pomoci stovkám klientů na cestě k jejich lepšímu pocitu z vlastní pleti.
               </p>
               <p>
-                Za dobu naší existence jsme se stali nedílnou součástí komunity 
-                v Bohunicích. Tisíce spokojených klientů jsou důkazem, že naše 
-                filozofie funguje - kombinace profesionality, kreativity a 
-                lidského přístupu vytváří jedinečnou atmosféru.
+                Každá tvář je jedinečná, a proto ke každé přistupuji individuálně –
+                s respektem k jejím potřebám i přáním. Průběžně se vzdělávám
+                v nejnovějších metodách a technologiích, abych vám mohla nabídnout
+                péči, která skutečně funguje.
               </p>
               <p>
-                Neustále se vzděláváme a sledujeme nejnovější trendy v kosmetice, 
-                abychom vám mohli nabídnout to nejlepší. Používáme pouze kvalitní 
-                produkty šetrné k pleti i životnímu prostředí.
+                V mém salonu najdete klidné prostředí, kde se můžete uvolnit
+                a svěřit do rukou někoho, komu na výsledku záleží stejně jako vám.
+                Těším se na naše setkání.
               </p>
             </div>
           </motion.div>
@@ -82,15 +80,15 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-3xl font-display font-semibold text-brand-text text-center mb-12"
           >
-            Naše hodnoty
+            Moje hodnoty
           </motion.h2>
-          
+
           <div className="grid md:grid-cols-4 gap-8">
             {[
               {
                 icon: Heart,
                 title: "Láska k řemeslu",
-                description: "Kosmetika není jen naše práce, je to naše vášeň."
+                description: "Kosmetika není jen má práce, je to má vášeň."
               },
               {
                 icon: Users,
@@ -136,21 +134,21 @@ export default function AboutPage() {
           className="bg-gradient-to-r from-brand-beige via-brand-beige-light to-brand-bg-soft rounded-2xl p-8 md:p-12 text-center"
         >
           <h2 className="text-3xl font-display font-semibold text-brand-text mb-4">
-            Andrea Nováková
+            Andrea Breznai
           </h2>
           <p className="text-brand-brown font-medium mb-6">
-            Majitelka salonu a hlavní kosmetička
+            Kosmetička s více než 21 lety zkušeností
           </p>
           <div className="max-w-2xl mx-auto text-brand-text-light space-y-4">
             <p>
-              S více než 20 lety zkušeností v oboru je Andrea srdcem našeho salonu. 
-              Její vášeň pro kosmetiku a neustálá touha po zdokonalování se 
-              přenáší na celý tým.
+              Specializuji se na komplexní péči o pleť, permanentní make-up,
+              speciální ošetření i řešení problematické pleti. Každý klient
+              si zaslouží individuální přístup a péči šitou na míru jejím potřebám.
             </p>
             <p>
-              Specializuje se na složité barvicí techniky, svatební účesy a 
-              poradenství v péči o problematické vlasy. Je držitelkou mnoha 
-              certifikátů od předních světových značek.
+              Pravidelně se vzdělávám v nejnovějších metodách a technologiích,
+              abych vám mohla nabídnout ošetření na nejvyšší úrovni. Vaše
+              spokojenost a viditelné výsledky jsou pro mě tou nejlepší odměnou.
             </p>
           </div>
         </motion.div>
@@ -165,11 +163,11 @@ export default function AboutPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl font-display font-bold text-brand-text mb-4">
-              Staňte se součástí naší rodiny
+              Těším se na vás
             </h2>
             <p className="text-brand-text-light max-w-2xl mx-auto mb-8">
-              Přijďte k nám a zažijte rozdíl. Těšíme se, až vám budeme moci 
-              ukázat, co pro vás můžeme udělat.
+              Přijďte ke mně a zažijte rozdíl. Těším se, až vám budu moci
+              ukázat, co pro vás mohu udělat.
             </p>
             <BookingCTA size="lg" className="btn-primary" text="Rezervovat první návštěvu" />
           </motion.div>

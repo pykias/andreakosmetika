@@ -26,11 +26,8 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <span className="text-xl font-display font-bold text-brand-text">
+              <span className="text-2xl font-serif italic text-brand-brown-dark tracking-wide">
                 Kosmetický salon Andrea
-              </span>
-              <span className="ml-2 text-sm text-brand-text-light">
-                Bohunice
               </span>
             </Link>
           </div>
