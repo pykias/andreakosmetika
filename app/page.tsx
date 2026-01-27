@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Star, Award, Heart, Clock } from "lucide-react";
+import { Diamond, UserFocus, SealCheck, CalendarCheck, Star } from "@phosphor-icons/react";
 import { Card, CardContent } from "@/components/ui/card";
 import { services, reviews } from "@/lib/data";
 
@@ -62,10 +62,10 @@ export default function HomePage() {
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             {[
-              { icon: Award, title: "15+ let zkušeností", desc: "Profesionální péče" },
-              { icon: Heart, title: "Individuální přístup", desc: "Každý klient je jedinečný" },
-              { icon: Star, title: "5.0 hodnocení", desc: "Spokojení zákazníci" },
-              { icon: Clock, title: "Flexibilní termíny", desc: "Přizpůsobíme se vám" },
+              { icon: Diamond, title: "21 let zkušeností", desc: "Profesionální péče" },
+              { icon: UserFocus, title: "Individuální přístup", desc: "Každý klient je jedinečný" },
+              { icon: SealCheck, title: "Ověřená kvalita", desc: "Spokojení zákazníci" },
+              { icon: CalendarCheck, title: "Flexibilní termíny", desc: "Přizpůsobím se vám" },
             ].map((item, index) => (
               <motion.div
                 key={index}
@@ -76,7 +76,7 @@ export default function HomePage() {
                 className="flex flex-col items-center"
               >
                 <div className="w-16 h-16 bg-brand-beige rounded-full flex items-center justify-center mb-4">
-                  <item.icon className="h-8 w-8 text-brand-brown" />
+                  <item.icon size={32} weight="duotone" className="text-brand-brown" />
                 </div>
                 <h3 className="font-semibold text-brand-text mb-2">{item.title}</h3>
                 <p className="text-sm text-brand-text-muted">{item.desc}</p>
@@ -173,7 +173,9 @@ export default function HomePage() {
                       {[...Array(review.rating)].map((_, i) => (
                         <Star
                           key={i}
-                          className="h-5 w-5 fill-yellow-400 text-yellow-400"
+                          size={20}
+                          weight="fill"
+                          className="text-yellow-400"
                         />
                       ))}
                     </div>
