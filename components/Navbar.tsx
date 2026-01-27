@@ -11,7 +11,7 @@ const navigation = [
   { name: "Služby", href: "/sluzby" },
   { name: "Ceník", href: "/cenik" },
   { name: "Galerie", href: "/galerie" },
-  { name: "O salonu", href: "/o-salonu" },
+  { name: "O mně", href: "/o-salonu" },
   { name: "Kontakt", href: "/kontakt" },
 ];
 

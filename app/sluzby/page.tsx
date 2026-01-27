@@ -64,10 +64,7 @@ export default function ServicesPage() {
                         <p className="text-brand-text-light mb-4">
                           {service.description}
                         </p>
-                        <div className="flex justify-between items-center pt-4 border-t border-border">
-                          <span className="text-lg font-semibold text-brand-brown">
-                            {service.price}
-                          </span>
+                        <div className="flex items-center pt-4 border-t border-border">
                           <span className="text-sm text-brand-text-muted flex items-center gap-1">
                             <Clock className="h-4 w-4" />
                             {service.duration}

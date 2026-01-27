@@ -20,9 +20,8 @@ export default function PriceListPage() {
           <h1 className="text-4xl md:text-5xl font-display font-bold text-brand-text mb-6">
             Ceník služeb
           </h1>
-          <p className="text-lg text-brand-text-light mb-8">
-            Transparentní ceny bez skrytých poplatků. Konečná cena může být upřesněna 
-            při konzultaci podle náročnosti a délky vlasů.
+          <p className="text-lg text-brand-text-light">
+            Přehled cen všech nabízených služeb. Pro více informací mě neváhejte kontaktovat.
           </p>
         </motion.div>
       </section>
@@ -37,8 +36,7 @@ export default function PriceListPage() {
           >
             <Info className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
             <p className="text-sm text-blue-800">
-              Ceny jsou orientační a mohou se lišit podle délky a hustoty vlasů. 
-              Přesnou cenu vám sdělíme při konzultaci před začátkem služby.
+              Ceny jsou orientační. Přesnou cenu vám sdělím při konzultaci před začátkem ošetření.
             </p>
           </motion.div>
 
@@ -54,7 +52,7 @@ export default function PriceListPage() {
               <h2 className="text-2xl font-display font-semibold text-brand-text mb-6 pb-2 border-b-2 border-brand-beige">
                 {category}
               </h2>
-              
+
               <div className="space-y-4">
                 {services
                   .filter(service => service.category === category)
@@ -71,9 +69,6 @@ export default function PriceListPage() {
                         <h3 className="font-semibold text-brand-text mb-1">
                           {service.name}
                         </h3>
-                        <p className="text-sm text-brand-text-muted">
-                          {service.duration}
-                        </p>
                       </div>
                       <div className="text-right">
                         <p className="text-lg font-semibold text-brand-brown">
@@ -94,11 +89,10 @@ export default function PriceListPage() {
             className="mt-12 p-8 bg-gradient-to-r from-brand-beige-light to-brand-bg-soft rounded-2xl text-center"
           >
             <h3 className="text-2xl font-display font-semibold text-brand-text mb-4">
-              Věrnostní program
+              Máte dotaz k cenám?
             </h3>
             <p className="text-brand-text-light mb-6">
-              Pro své stálé klienty nabízím speciální slevy a výhody.
-              Zeptejte se na detaily při vaší návštěvě.
+              Neváhejte mě kontaktovat pro více informací nebo individuální cenovou nabídku.
             </p>
             <Link href="/kontakt">
               <button className="inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-medium h-10 px-6 bg-brand-brown text-white hover:bg-brand-brown-dark transition-all duration-300">

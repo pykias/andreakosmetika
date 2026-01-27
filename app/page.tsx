@@ -120,10 +120,7 @@ export default function HomePage() {
                     <p className="text-sm text-brand-text-muted mb-4">
                       {service.description}
                     </p>
-                    <div className="flex justify-between items-center">
-                      <span className="text-brand-brown font-semibold">
-                        {service.price}
-                      </span>
+                    <div className="flex items-center">
                       <span className="text-sm text-brand-text-muted">
                         {service.duration}
                       </span>
