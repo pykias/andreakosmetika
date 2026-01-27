@@ -54,17 +54,17 @@ export default function ServicesPage() {
                     transition={{ duration: 0.3, delay: index * 0.05 }}
                     viewport={{ once: true }}
                   >
-                    <Card className="h-full hover:shadow-xl transition-shadow duration-300">
+                    <Card className="h-full hover:shadow-xl transition-shadow duration-300 flex flex-col">
                       <CardHeader>
                         <CardTitle className="text-xl text-brand-text">
                           {service.name}
                         </CardTitle>
                       </CardHeader>
-                      <CardContent>
-                        <p className="text-brand-text-light mb-4">
+                      <CardContent className="flex flex-col flex-grow">
+                        <p className="text-brand-text-light flex-grow">
                           {service.description}
                         </p>
-                        <div className="flex items-center pt-4 border-t border-border">
+                        <div className="flex items-center pt-4 mt-4 border-t border-border">
                           <span className="text-sm text-brand-text-muted flex items-center gap-1">
                             <Clock className="h-4 w-4" />
                             {service.duration}
