@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Diamond, UserFocus, SealCheck, CalendarCheck, Star } from "@phosphor-icons/react";
+import { FlowerLotus, HandHeart, SealCheck, CalendarCheck, Star } from "@phosphor-icons/react";
 import { Card, CardContent } from "@/components/ui/card";
 import { services, reviews } from "@/lib/data";
 
@@ -62,8 +62,8 @@ export default function HomePage() {
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             {[
-              { icon: Diamond, title: "21 let zkušeností", desc: "Profesionální péče" },
-              { icon: UserFocus, title: "Individuální přístup", desc: "Každý klient je jedinečný" },
+              { icon: FlowerLotus, title: "21 let zkušeností", desc: "Profesionální péče" },
+              { icon: HandHeart, title: "Individuální přístup", desc: "Každý klient je jedinečný" },
               { icon: SealCheck, title: "Ověřená kvalita", desc: "Spokojení zákazníci" },
               { icon: CalendarCheck, title: "Flexibilní termíny", desc: "Přizpůsobím se vám" },
             ].map((item, index) => (
