@@ -255,6 +255,7 @@ export const salonInfo = {
   phone: "+420 777 123 456",
   email: "info@salonandrea.cz",
   ico: "12345678",
+  mapUrl: "https://maps.google.com/?q=Brno-Bohunice",
   openingHours: {
     monday: "9:00 - 18:00",
     tuesday: "9:00 - 18:00",
