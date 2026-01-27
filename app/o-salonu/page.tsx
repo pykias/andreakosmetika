@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Heart, Users, Sparkles, Award } from "lucide-react";
-import BookingCTA from "@/components/BookingCTA";
+import Link from "next/link";
 
 export default function AboutPage() {
   return (
@@ -169,7 +169,11 @@ export default function AboutPage() {
               Přijďte ke mně a zažijte rozdíl. Těším se, až vám budu moci
               ukázat, co pro vás mohu udělat.
             </p>
-            <BookingCTA size="lg" className="btn-primary" text="Rezervovat první návštěvu" />
+            <Link href="/kontakt">
+              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-medium h-12 px-8 bg-brand-brown text-white hover:bg-brand-brown-dark transition-all duration-300">
+                Kontaktovat mě
+              </button>
+            </Link>
           </motion.div>
         </div>
       </section>

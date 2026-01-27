@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Clock, Sparkles } from "lucide-react";
-import BookingCTA from "@/components/BookingCTA";
+import Link from "next/link";
 import { services } from "@/lib/data";
 
 export default function ServicesPage() {
@@ -21,11 +21,10 @@ export default function ServicesPage() {
           <h1 className="text-4xl md:text-5xl font-display font-bold text-brand-text mb-6">
             Naše služby
           </h1>
-          <p className="text-lg text-brand-text-light mb-8">
-            Nabízíme kompletní škálu profesionálních kosmetických služeb. 
-            Každý klient je pro nás jedinečný a zaslouží si individuální přístup.
+          <p className="text-lg text-brand-text-light">
+            Nabízíme kompletní škálu profesionálních kosmetických služeb.
+            Každý klient je pro mě jedinečný a zaslouží si individuální přístup.
           </p>
-          <BookingCTA size="lg" className="btn-primary" />
         </motion.div>
       </section>
 
@@ -95,10 +94,14 @@ export default function ServicesPage() {
               Nejste si jisti výběrem?
             </h2>
             <p className="text-brand-text-light max-w-2xl mx-auto mb-8">
-              Rádi vám poradíme s výběrem nejvhodnější služby při osobní konzultaci. 
-              Rezervujte si termín a společně najdeme řešení přesně pro vás.
+              Ráda vám poradím s výběrem nejvhodnější služby při osobní konzultaci.
+              Kontaktujte mě a společně najdeme řešení přesně pro vás.
             </p>
-            <BookingCTA size="lg" text="Objednat konzultaci" />
+            <Link href="/kontakt">
+              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-medium h-12 px-8 bg-brand-brown text-white hover:bg-brand-brown-dark transition-all duration-300">
+                Kontaktovat
+              </button>
+            </Link>
           </motion.div>
         </div>
       </section>

@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Clock, Facebook, Instagram, ExternalLink } from "lucide-react";
 import { salonInfo } from "@/lib/data";
-import BookingCTA from "@/components/BookingCTA";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function ContactPage() {
@@ -107,9 +106,6 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                <div className="mt-8">
-                  <BookingCTA className="w-full btn-primary" size="lg" />
-                </div>
               </CardContent>
             </Card>
           </motion.div>

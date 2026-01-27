@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Star, Award, Heart, Clock } from "lucide-react";
-import BookingCTA from "@/components/BookingCTA";
 import { Card, CardContent } from "@/components/ui/card";
 import { services, reviews } from "@/lib/data";
 
@@ -45,10 +44,14 @@ export default function HomePage() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <BookingCTA size="lg" className="btn-primary" />
             <Link href="/sluzby">
-              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-medium h-12 px-8 bg-white border-2 border-brand-brown text-brand-brown hover:bg-brand-beige-light transition-all duration-300">
+              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-medium h-12 px-8 bg-brand-brown text-white hover:bg-brand-brown-dark transition-all duration-300">
                 Naše služby
+              </button>
+            </Link>
+            <Link href="/kontakt">
+              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-medium h-12 px-8 bg-white border-2 border-brand-brown text-brand-brown hover:bg-brand-beige-light transition-all duration-300">
+                Kontakt
               </button>
             </Link>
           </motion.div>
@@ -208,9 +211,13 @@ export default function HomePage() {
               Připraveni na změnu?
             </h2>
             <p className="text-lg text-brand-text-light max-w-2xl mx-auto mb-8">
-              Rezervujte si termín ještě dnes a dopřejte své pleti péči, kterou si zaslouží
+              Kontaktujte mě a dopřejte své pleti péči, kterou si zaslouží
             </p>
-            <BookingCTA size="lg" className="btn-primary" text="Rezervovat termín" />
+            <Link href="/kontakt">
+              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-medium h-12 px-8 bg-brand-brown text-white hover:bg-brand-brown-dark transition-all duration-300">
+                Kontaktovat
+              </button>
+            </Link>
           </motion.div>
         </div>
       </section>

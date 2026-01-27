@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { services } from "@/lib/data";
 import { Info } from "lucide-react";
-import BookingCTA from "@/components/BookingCTA";
+import Link from "next/link";
 
 export default function PriceListPage() {
   const categories = Array.from(new Set(services.map(s => s.category)));
@@ -97,10 +97,14 @@ export default function PriceListPage() {
               Věrnostní program
             </h3>
             <p className="text-brand-text-light mb-6">
-              Pro naše stálé klienty nabízíme speciální slevy a výhody. 
+              Pro své stálé klienty nabízím speciální slevy a výhody.
               Zeptejte se na detaily při vaší návštěvě.
             </p>
-            <BookingCTA className="btn-primary" />
+            <Link href="/kontakt">
+              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-medium h-10 px-6 bg-brand-brown text-white hover:bg-brand-brown-dark transition-all duration-300">
+                Kontaktovat
+              </button>
+            </Link>
           </motion.div>
         </div>
       </section>

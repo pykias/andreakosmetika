@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 import { galleryImages } from "@/lib/data";
-import BookingCTA from "@/components/BookingCTA";
+import Link from "next/link";
 
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<typeof galleryImages[0] | null>(null);
@@ -134,13 +134,17 @@ export default function GalleryPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl font-display font-bold text-brand-text mb-4">
-              Líbí se vám naše práce?
+              Líbí se vám moje práce?
             </h2>
             <p className="text-brand-text-light max-w-2xl mx-auto mb-8">
-              Přijďte k nám a společně vytvoříme účes vašich snů. 
-              Těšíme se na vás!
+              Přijďte ke mně a společně dosáhneme skvělých výsledků.
+              Těším se na vás!
             </p>
-            <BookingCTA size="lg" className="btn-primary" text="Chci podobný účes" />
+            <Link href="/kontakt">
+              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-medium h-12 px-8 bg-brand-brown text-white hover:bg-brand-brown-dark transition-all duration-300">
+                Kontaktovat mě
+              </button>
+            </Link>
           </motion.div>
         </div>
       </section>

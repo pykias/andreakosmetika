@@ -4,7 +4,6 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
-import BookingCTA from "./BookingCTA";
 import { cn } from "@/lib/utils";
 
 const navigation = [
@@ -47,7 +46,6 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <BookingCTA size="sm" className="ml-4" />
           </div>
 
           <div className="flex md:hidden">
@@ -84,9 +82,6 @@ export default function Navbar() {
                   {item.name}
                 </Link>
               ))}
-              <div className="px-3 py-2">
-                <BookingCTA className="w-full" />
-              </div>
             </div>
           </div>
         )}
