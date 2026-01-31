@@ -256,15 +256,6 @@ export const salonInfo = {
   email: "info@salonandrea.cz",
   ico: "12345678",
   mapUrl: "https://maps.google.com/?q=Brno-Bohunice",
-  openingHours: {
-    monday: "9:00 - 18:00",
-    tuesday: "9:00 - 18:00",
-    wednesday: "9:00 - 18:00",
-    thursday: "9:00 - 20:00",
-    friday: "9:00 - 18:00",
-    saturday: "9:00 - 14:00",
-    sunday: "Zavřeno"
-  },
   social: {
     facebook: "https://www.facebook.com/salonandrea",
     instagram: "https://www.instagram.com/salonandrea",

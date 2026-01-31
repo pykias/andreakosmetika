@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { FlowerLotus, HandHeart, SealCheck, CalendarCheck, Star } from "@phosphor-icons/react";
+import { FlowerLotus, HandHeart, SealCheck, Star } from "@phosphor-icons/react";
 import { Card, CardContent } from "@/components/ui/card";
 import { services, reviews } from "@/lib/data";
 
@@ -60,12 +60,11 @@ export default function HomePage() {
 
       <section className="py-16 bg-white">
         <div className="container">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
+          <div className="grid md:grid-cols-3 gap-8 text-center">
             {[
               { icon: FlowerLotus, title: "21 let zkušeností", desc: "Profesionální péče" },
               { icon: HandHeart, title: "Individuální přístup", desc: "Každý klient je jedinečný" },
               { icon: SealCheck, title: "Ověřená kvalita", desc: "Spokojení zákazníci" },
-              { icon: CalendarCheck, title: "Flexibilní termíny", desc: "Přizpůsobím se vám" },
             ].map((item, index) => (
               <motion.div
                 key={index}

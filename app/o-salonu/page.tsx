@@ -62,8 +62,8 @@ export default function AboutPage() {
             className="relative h-[400px] rounded-2xl overflow-hidden"
           >
             <Image
-              src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800"
-              alt="Interiér salonu"
+              src="/salon_brno.jpg"
+              alt="Kosmetický salon Andrea Bohunice"
               fill
               className="object-cover"
             />

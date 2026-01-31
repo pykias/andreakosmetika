@@ -107,25 +107,14 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-brand-text mb-4 flex items-center gap-2">
               <Clock className="h-4 w-4" />
-              Otevírací doba
+              Objednávky
             </h4>
-            <ul className="space-y-1">
-              <li className="text-sm text-brand-text-light">
-                <span className="font-medium">Po-St:</span> {salonInfo.openingHours.monday}
-              </li>
-              <li className="text-sm text-brand-text-light">
-                <span className="font-medium">Čt:</span> {salonInfo.openingHours.thursday}
-              </li>
-              <li className="text-sm text-brand-text-light">
-                <span className="font-medium">Pá:</span> {salonInfo.openingHours.friday}
-              </li>
-              <li className="text-sm text-brand-text-light">
-                <span className="font-medium">So:</span> {salonInfo.openingHours.saturday}
-              </li>
-              <li className="text-sm text-brand-text-light">
-                <span className="font-medium">Ne:</span> {salonInfo.openingHours.sunday}
-              </li>
-            </ul>
+            <p className="text-sm text-brand-text-light">
+              Služby jsou poskytovány pouze na objednávku.
+            </p>
+            <p className="text-sm text-brand-text-light mt-2">
+              Kontaktujte mě a domluvíme si termín.
+            </p>
           </div>
         </div>
 

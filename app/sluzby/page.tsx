@@ -21,9 +21,12 @@ export default function ServicesPage() {
           <h1 className="text-4xl md:text-5xl font-display font-bold text-brand-text mb-6">
             Naše služby
           </h1>
-          <p className="text-lg text-brand-text-light">
+          <p className="text-lg text-brand-text-light mb-4">
             Nabízíme kompletní škálu profesionálních kosmetických služeb.
             Každý klient je pro mě jedinečný a zaslouží si individuální přístup.
+          </p>
+          <p className="text-sm text-brand-text-muted">
+            Délka ošetření je cca 75 minut. Čas je orientační a závisí na typu pleti a náročnosti procedury.
           </p>
         </motion.div>
       </section>

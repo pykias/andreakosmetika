@@ -119,45 +119,15 @@ export default function ContactPage() {
               <CardContent className="p-8">
                 <h2 className="text-2xl font-display font-semibold text-brand-text mb-6 flex items-center gap-2">
                   <Clock className="h-6 w-6 text-brand-brown" />
-                  Otevírací doba
+                  Objednávky
                 </h2>
-                
-                <div className="space-y-3">
-                  <div className="flex justify-between py-3 border-b border-border">
-                    <span className="font-medium text-brand-text">Pondělí</span>
-                    <span className="text-brand-text-light">{salonInfo.openingHours.monday}</span>
-                  </div>
-                  <div className="flex justify-between py-3 border-b border-border">
-                    <span className="font-medium text-brand-text">Úterý</span>
-                    <span className="text-brand-text-light">{salonInfo.openingHours.tuesday}</span>
-                  </div>
-                  <div className="flex justify-between py-3 border-b border-border">
-                    <span className="font-medium text-brand-text">Středa</span>
-                    <span className="text-brand-text-light">{salonInfo.openingHours.wednesday}</span>
-                  </div>
-                  <div className="flex justify-between py-3 border-b border-border">
-                    <span className="font-medium text-brand-text">Čtvrtek</span>
-                    <span className="text-brand-text-light">{salonInfo.openingHours.thursday}</span>
-                  </div>
-                  <div className="flex justify-between py-3 border-b border-border">
-                    <span className="font-medium text-brand-text">Pátek</span>
-                    <span className="text-brand-text-light">{salonInfo.openingHours.friday}</span>
-                  </div>
-                  <div className="flex justify-between py-3 border-b border-border">
-                    <span className="font-medium text-brand-text">Sobota</span>
-                    <span className="text-brand-text-light">{salonInfo.openingHours.saturday}</span>
-                  </div>
-                  <div className="flex justify-between py-3">
-                    <span className="font-medium text-brand-text">Neděle</span>
-                    <span className="text-brand-text-light">{salonInfo.openingHours.sunday}</span>
-                  </div>
-                </div>
 
-                <div className="mt-8 p-4 bg-brand-bg-soft rounded-lg">
-                  <p className="text-sm text-brand-text-light">
-                    <strong className="text-brand-text">Poznámka:</strong> V případě potřeby 
-                    jsme schopni se přizpůsobit i mimo běžnou otevírací dobu. 
-                    Kontaktujte nás pro individuální domluvu.
+                <div className="text-center py-8">
+                  <p className="text-lg text-brand-text mb-4">
+                    Služby jsou poskytovány pouze na objednávku
+                  </p>
+                  <p className="text-brand-text-light">
+                    Kontaktujte mě telefonicky nebo e-mailem a domluvíme si termín, který vám bude vyhovovat.
                   </p>
                 </div>
               </CardContent>
