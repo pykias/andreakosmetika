@@ -125,7 +125,7 @@ export default function GalleryPage() {
         )}
       </AnimatePresence>
 
-      <section className="mt-20 py-16 bg-brand-bg-soft">
+      <section className="mt-16 py-16 bg-brand-bg-soft">
         <div className="container text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -133,7 +133,7 @@ export default function GalleryPage() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-display font-bold text-brand-text mb-4">
+            <h2 className="text-3xl font-display font-semibold text-brand-text mb-4">
               Líbí se vám moje práce?
             </h2>
             <p className="text-brand-text-light max-w-2xl mx-auto mb-8">

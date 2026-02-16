@@ -169,6 +169,31 @@ export const services: Service[] = [
     description: "Specializovaná péče zaměřená na zmírnění viditelnosti jizev různého původu. Pomáháme pleti obnovit hladší a jednotnější strukturu.",
     duration: "60 min",
     price: "800–3 500 Kč"
+  },
+  // Speciální procedury
+  {
+    id: "19",
+    name: "Obličejová liftingová masáž",
+    category: "Speciální procedury",
+    description: "Speciální masážní technika zaměřená na zpevnění a lifting obličejových svalů. Stimuluje krevní oběh, zlepšuje pružnost pleti a pomáhá redukovat známky stárnutí. Lze využít samostatně i jako doplněk ke kosmetickému ošetření.",
+    duration: "50 min",
+    price: "1 000 Kč"
+  },
+  {
+    id: "20",
+    name: "Terapie světlem",
+    category: "Speciální procedury",
+    description: "Moderní fototerapie využívající různé vlnové délky světla pro regeneraci a omlazení pleti. Pomáhá při léčbě akné, pigmentových skvrn a podporuje celkovou revitalizaci pokožky.",
+    duration: "30 min",
+    price: "cena dle rozsahu"
+  },
+  {
+    id: "21",
+    name: "HIFU",
+    category: "Speciální procedury",
+    description: "Neinvazivní liftingová metoda využívající fokusovaný ultrazvuk pro zpevnění a omlazení pleti. Stimuluje tvorbu kolagenu v hlubších vrstvách kůže pro dlouhotrvající efekt.",
+    duration: "60 min",
+    price: "cena dle rozsahu"
   }
 ];
 

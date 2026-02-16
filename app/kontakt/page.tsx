@@ -171,7 +171,7 @@ export default function ContactPage() {
             viewport={{ once: true }}
             className="text-center max-w-2xl mx-auto"
           >
-            <h2 className="text-3xl font-display font-bold text-brand-text mb-4">
+            <h2 className="text-3xl font-display font-semibold text-brand-text mb-4">
               Doprava a parkování
             </h2>
             <div className="space-y-4 text-brand-text-light">

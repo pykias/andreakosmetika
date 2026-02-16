@@ -117,8 +117,8 @@ export default function AboutPage() {
                 <div className="w-16 h-16 bg-brand-beige rounded-full flex items-center justify-center mx-auto mb-4">
                   <value.icon className="h-8 w-8 text-brand-brown" />
                 </div>
-                <h3 className="font-semibold text-brand-text mb-2">{value.title}</h3>
-                <p className="text-sm text-brand-text-muted">{value.description}</p>
+                <h3 className="text-lg font-semibold text-brand-text mb-2">{value.title}</h3>
+                <p className="text-sm text-brand-text-light">{value.description}</p>
               </motion.div>
             ))}
           </div>
@@ -162,7 +162,7 @@ export default function AboutPage() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-display font-bold text-brand-text mb-4">
+            <h2 className="text-3xl font-display font-semibold text-brand-text mb-4">
               Těším se na vás
             </h2>
             <p className="text-brand-text-light max-w-2xl mx-auto mb-8">

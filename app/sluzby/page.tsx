@@ -82,7 +82,7 @@ export default function ServicesPage() {
         ))}
       </section>
 
-      <section className="py-16 bg-brand-bg-soft mt-20">
+      <section className="py-16 bg-brand-bg-soft mt-16">
         <div className="container text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -90,7 +90,7 @@ export default function ServicesPage() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-display font-bold text-brand-text mb-4">
+            <h2 className="text-3xl font-display font-semibold text-brand-text mb-4">
               Nejste si jisti výběrem?
             </h2>
             <p className="text-brand-text-light max-w-2xl mx-auto mb-8">

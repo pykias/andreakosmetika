@@ -58,7 +58,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-20 bg-white">
         <div className="container">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             {[
@@ -77,8 +77,8 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-brand-beige rounded-full flex items-center justify-center mb-4">
                   <item.icon size={32} weight="duotone" className="text-brand-brown" />
                 </div>
-                <h3 className="font-semibold text-brand-text mb-2">{item.title}</h3>
-                <p className="text-sm text-brand-text-muted">{item.desc}</p>
+                <h3 className="text-lg font-semibold text-brand-text mb-2">{item.title}</h3>
+                <p className="text-sm text-brand-text-light">{item.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -94,7 +94,7 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-text mb-4">
+            <h2 className="text-3xl font-display font-semibold text-brand-text mb-4">
               Naše nejoblíbenější služby
             </h2>
             <p className="text-brand-text-light max-w-2xl mx-auto">
@@ -149,7 +149,7 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-text mb-4">
+            <h2 className="text-3xl font-display font-semibold text-brand-text mb-4">
               Co říkají naši klienti
             </h2>
             <p className="text-brand-text-light max-w-2xl mx-auto">
@@ -205,7 +205,7 @@ export default function HomePage() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-text mb-6">
+            <h2 className="text-3xl font-display font-semibold text-brand-text mb-6">
               Připraveni na změnu?
             </h2>
             <p className="text-lg text-brand-text-light max-w-2xl mx-auto mb-8">
