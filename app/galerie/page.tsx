@@ -29,7 +29,7 @@ export default function GalleryPage() {
             Galerie naší práce
           </h1>
           <p className="text-lg text-brand-text-light mb-8">
-            Prohlédněte si ukázky naší práce. Každý účes je originál vytvořený 
+            Prohlédněte si ukázky naší práce. Každé ošetření je originál vytvořený
             s láskou a profesionální péčí.
           </p>
         </motion.div>

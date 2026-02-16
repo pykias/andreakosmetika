@@ -14,7 +14,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Kosmetický salon Andrea Bohunice - Profesionální kosmetické služby",
   description: "Profesionální kosmetické služby v Brně-Bohunicích. Ošetření pleti, masáže, líčení a wellness procedury.",
-  keywords: "kosmetika, kosmetický salon, Bohunice, Brno, ošetření pleti, masáže, líčení",
+  keywords: "kosmetika, kosmetický salon, Bohunice, Brno, ošetření pleti, masáže, HIFU, terapie světlem, liftingová masáž, permanentní make-up",
   openGraph: {
     title: "Kosmetický salon Andrea Bohunice",
     description: "Profesionální kosmetické služby v Brně-Bohunicích",
