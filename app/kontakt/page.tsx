@@ -19,7 +19,7 @@ export default function ContactPage() {
             Kontakt
           </h1>
           <p className="text-lg text-brand-text-light">
-            Rádi vás přivítáme v našem salonu. Najdete nás v srdci Bohunic, 
+            Rádi vás přivítáme v našem salonu. Najdete nás ve Starém Lískovci,
             s výbornou dostupností MHD i možností parkování.
           </p>
         </motion.div>
@@ -147,7 +147,7 @@ export default function ContactPage() {
             <CardContent className="p-0">
               <div className="aspect-video relative rounded-xl overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.5439765351597!2d16.577843!3d49.1747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDEwJzI5LjAiTiAxNsKwMzQnNDAuMiJF!5e0!3m2!1scs!2scz!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2608.0!2d16.5745!3d49.1835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zU3RhcsO9IEzDrXNrb3ZlYywgQnJubw!5e0!3m2!1scs!2scz!4v1234567890"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

@@ -209,7 +209,7 @@ export const reviews: Review[] = [
     id: "2",
     name: "Jana K.",
     rating: 5,
-    text: "Navštěvuji salon pravidelně už 3 roky. Vždy odcházím spokojená a relaxovaná. Nejlepší kosmetika v Bohunicích!",
+    text: "Navštěvuji salon pravidelně už 3 roky. Vždy odcházím spokojená a relaxovaná. Nejlepší kosmetika ve Starém Lískovci!",
     date: "2024-01-20"
   },
   {
@@ -275,12 +275,12 @@ export const galleryImages: GalleryImage[] = [
 ];
 
 export const salonInfo = {
-  name: "Kosmetický salon Andrea Bohunice",
-  address: "Dlouhá 123, 625 00 Brno-Bohunice",
-  phone: "+420 777 123 456",
+  name: "Kosmetický salon Andrea Starý Lískovec",
+  address: "U Pošty 2, 625 00 Brno-Starý Lískovec",
+  phone: "+420 604 160 553",
   email: "info@salonandrea.cz",
-  ico: "12345678",
-  mapUrl: "https://maps.google.com/?q=Brno-Bohunice",
+  ico: "69723320",
+  mapUrl: "https://maps.google.com/?q=U+Pošty+2,+Brno-Starý+Lískovec",
   social: {
     facebook: "https://www.facebook.com/salonandrea",
     instagram: "https://www.instagram.com/salonandrea",

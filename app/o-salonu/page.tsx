@@ -63,7 +63,7 @@ export default function AboutPage() {
           >
             <Image
               src="/salon_brno.jpg"
-              alt="Kosmetický salon Andrea Bohunice"
+              alt="Kosmetický salon Andrea Starý Lískovec"
               fill
               className="object-cover"
             />

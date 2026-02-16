@@ -24,7 +24,7 @@ export default function HomePage() {
           >
             Kosmetický salon Andrea
             <span className="block text-2xl md:text-3xl font-normal text-brand-brown mt-2">
-              Bohunice
+              Starý Lískovec
             </span>
           </motion.h1>
           
