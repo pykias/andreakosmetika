@@ -175,7 +175,7 @@ export const services: Service[] = [
     id: "19",
     name: "Obličejová liftingová masáž",
     category: "Speciální procedury",
-    description: "Speciální masážní technika zaměřená na zpevnění a lifting obličejových svalů. Stimuluje krevní oběh, zlepšuje pružnost pleti a pomáhá redukovat známky stárnutí. Lze využít samostatně i jako doplněk ke kosmetickému ošetření.",
+    description: "Speciální masážní technika zaměřená na zpevnění a lifting obličejových svalů. Stimuluje krevní oběh, zlepšuje pružnost pleti a pomáhá redukovat známky stárnutí. Lze využít samostatně i jako doplněk ke kosmetickému ošetření. Školení v Liana Academy – Masérské kurzy Brno.",
     duration: "50 min",
     price: "1 000 Kč"
   },
