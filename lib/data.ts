@@ -271,6 +271,12 @@ export const galleryImages: GalleryImage[] = [
     src: "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=800",
     alt: "Kosmetické křeslo",
     category: "Salon"
+  },
+  {
+    id: "7",
+    src: "/red_light-ak.webp",
+    alt: "Terapie červeným světlem",
+    category: "Ošetření"
   }
 ];
 
