@@ -176,8 +176,8 @@ export default function ContactPage() {
             </h2>
             <div className="space-y-4 text-brand-text-light">
               <p>
-                <strong className="text-brand-text">MHD:</strong> Zastávka Lány 
-                (tramvaj č. 1, 6) - 2 minuty chůze od salonu
+                <strong className="text-brand-text">MHD:</strong> Zastávka Osová
+                (tramvaj č. 6, 7, 8, autobus č.50) - 2 minuty chůze od salonu
               </p>
               <p>
                 <strong className="text-brand-text">Parkování:</strong> Možnost 

@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
+import MaintenanceBanner from "@/components/MaintenanceBanner";
 
 const playfair = Playfair_Display({
   subsets: ["latin", "latin-ext"],
@@ -12,14 +13,18 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Kosmetický salon Andrea Starý Lískovec - Profesionální kosmetické služby",
+  title: "Salón Andrea Starý Lískovec - Profesionální kosmetické služby",
   description: "Profesionální kosmetické služby v Brně-Starém Lískovci. Ošetření pleti, masáže, HIFU, terapie světlem a permanentní make-up.",
-  keywords: "kosmetika, kosmetický salon, Starý Lískovec, Brno, ošetření pleti, masáže, HIFU, terapie světlem, liftingová masáž, permanentní make-up",
+  keywords: "kosmetika, Salón Andrea, Starý Lískovec, Brno, ošetření pleti, masáže, HIFU, terapie světlem, liftingová masáž, permanentní make-up",
+  icons: {
+    icon: "/ANDREA_LOGO.svg",
+    apple: "/ANDREA_LOGO.svg",
+  },
   openGraph: {
-    title: "Kosmetický salon Andrea Starý Lískovec",
+    title: "Salón Andrea Starý Lískovec",
     description: "Profesionální kosmetické služby v Brně-Starém Lískovci",
     url: "https://salonandrea.cz",
-    siteName: "Kosmetický salon Andrea Starý Lískovec",
+    siteName: "Salón Andrea Starý Lískovec",
     locale: "cs_CZ",
     type: "website",
   },
@@ -34,6 +39,7 @@ export default function RootLayout({
     <html lang="cs">
       <body className={playfair.variable}>
         <div className="min-h-screen flex flex-col">
+          <MaintenanceBanner />
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />

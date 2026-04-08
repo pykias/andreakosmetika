@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -24,9 +25,16 @@ export default function Navbar() {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-center gap-3">
+              <Image
+                src="/ANDREA_LOGO.svg"
+                alt="Andrea logo"
+                width={40}
+                height={40}
+                className="h-10 w-10"
+              />
               <span className="text-2xl font-serif italic text-brand-brown-dark tracking-wide">
-                Kosmetický salon Andrea
+                Salón Andrea
               </span>
             </Link>
           </div>

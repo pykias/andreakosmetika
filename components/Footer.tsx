@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="font-display text-lg font-semibold text-brand-text mb-4">
-              Kosmetický salon Andrea Starý Lískovec
+              Salón Andrea Starý Lískovec
             </h3>
             <p className="text-sm text-brand-text-light mb-4">
               Profesionální kosmetické služby ve Starém Lískovci. Vaše krása je naší prioritou.
@@ -121,7 +121,7 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-border">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-xs text-brand-text-muted">
-              © {new Date().getFullYear()} Kosmetický salon Andrea Starý Lískovec. Všechna práva vyhrazena.
+              © {new Date().getFullYear()} Salón Andrea Starý Lískovec. Všechna práva vyhrazena.
             </p>
             <p className="text-xs text-brand-text-muted">
               IČO: {salonInfo.ico}

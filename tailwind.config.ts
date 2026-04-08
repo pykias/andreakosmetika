@@ -50,9 +50,9 @@ const config: Config = {
             dark: "#D4C3AF",
           },
           brown: {
-            light: "#C9A888",
-            DEFAULT: "#B08A6A",
-            dark: "#8B6B4E",
+            light: "#D4AF37",
+            DEFAULT: "#B8960C",
+            dark: "#96790A",
           },
           text: {
             DEFAULT: "#2B2118",

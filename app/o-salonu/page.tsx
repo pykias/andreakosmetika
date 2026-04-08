@@ -19,7 +19,7 @@ export default function AboutPage() {
             O mně
           </h1>
           <p className="text-lg text-brand-text-light">
-            Více než 21 let se věnuji kosmetice a péči o pleť s vášní a profesionalitou.
+            Více než 22 let se věnuji kosmetice a péči o pleť s vášní a profesionalitou.
           </p>
         </motion.div>
       </section>
@@ -37,7 +37,7 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-4 text-brand-text-light">
               <p>
-                Kosmetice se věnuji více než 21 let a za tu dobu jsem měla možnost
+                Kosmetice se věnuji více než 22 let a za tu dobu jsem měla možnost
                 pomoci stovkám klientů na cestě k jejich lepšímu pocitu z vlastní pleti.
               </p>
               <p>
@@ -63,7 +63,7 @@ export default function AboutPage() {
           >
             <Image
               src="/salon_brno.jpg"
-              alt="Kosmetický salon Andrea Starý Lískovec"
+              alt="Salón Andrea Starý Lískovec"
               fill
               className="object-cover"
             />
@@ -137,7 +137,7 @@ export default function AboutPage() {
             Andrea Breznai
           </h2>
           <p className="text-brand-brown font-medium mb-6">
-            Kosmetička s více než 21 lety zkušeností
+            Kosmetička s více než 22 lety zkušeností
           </p>
           <div className="max-w-2xl mx-auto text-brand-text-light space-y-4">
             <p>

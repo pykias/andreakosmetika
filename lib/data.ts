@@ -38,7 +38,7 @@ export const services: Service[] = [
     category: "Kosmetická ošetření",
     description: "Intenzivní ošetření zaměřené na konkrétní potřeby vaší pleti. Ať už toužíte po hloubkové hydrataci, sjednocení tónu nebo zpevnění kontur, tato péče vám pomůže dosáhnout viditelných výsledků.",
     duration: "60 min",
-    price: "1 550 Kč"
+    price: "od 1 550 Kč"
   },
   {
     id: "3",
@@ -74,7 +74,7 @@ export const services: Service[] = [
   },
   {
     id: "7",
-    name: "Studená plazma – samostatně",
+    name: "Studená plazma – samostatně (10 min.)",
     category: "Kosmetická ošetření",
     description: "Cílené ošetření studenou plazmou pro rychlou regeneraci a revitalizaci pleti. Ideální doplněk k pravidelné péči.",
     duration: "60 min",
@@ -145,14 +145,30 @@ export const services: Service[] = [
     duration: "60 min",
     price: "1 000 Kč"
   },
+  {
+    id: "15",
+    name: "Oživení tvaru a barvy 1 rok",
+    category: "Permanentní make-up",
+    description: "Od korekce do jednoho roku",
+    duration: "60 min",
+    price: "1 500Kč"
+  },
   // Odstraňování a korekce
   {
     id: "16",
-    name: "Laserové odstranění tetování (PMU i tetování na těle)",
+    name: "Odstraňování PMU",
     category: "Odstraňování a korekce",
-    description: "Bezpečná a účinná metoda pro odstranění nežádoucího tetování. Vhodná jak pro permanentní make-up, tak pro tetování na těle.",
+    description: "Bezpečná a účinná metoda pro odstranění nežádoucího tetování. Vhodná pro permanentní make-up.",
     duration: "60 min",
     price: "od 1 200 Kč / sezení"
+  },
+  {
+    id: "16",
+    name: "Odstraňování laserem tetování po těle",
+    category: "Odstraňování a korekce",
+    description: "Bezpečná a účinná metoda pro odstranění nežádoucího tetování. Vhodná pro odstranění trvalého tetování po těle.",
+    duration: "60 min",
+    price: "od 500 Kč / dle osobní domluvy"
   },
   {
     id: "17",
@@ -165,7 +181,7 @@ export const services: Service[] = [
   {
     id: "18",
     name: "Odstraňování jizev (akné, operace, úrazy)",
-    category: "Odstraňování a korekce",
+    category: "Speciální procedury",
     description: "Specializovaná péče zaměřená na zmírnění viditelnosti jizev různého původu. Pomáháme pleti obnovit hladší a jednotnější strukturu.",
     duration: "60 min",
     price: "800–3 500 Kč"
@@ -281,7 +297,7 @@ export const galleryImages: GalleryImage[] = [
 ];
 
 export const salonInfo = {
-  name: "Kosmetický salon Andrea Starý Lískovec",
+  name: "Salón Andrea Starý Lískovec",
   address: "U Pošty 2, 625 00 Brno-Starý Lískovec",
   phone: "+420 604 160 553",
   email: "info@salonandrea.cz",

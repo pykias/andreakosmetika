@@ -22,7 +22,7 @@ export default function HomePage() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-6xl font-display font-bold text-brand-text mb-6"
           >
-            Kosmetický salon Andrea
+            Salón Andrea
             <span className="block text-2xl md:text-3xl font-normal text-brand-brown mt-2">
               Starý Lískovec
             </span>
@@ -34,8 +34,7 @@ export default function HomePage() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-brand-text-light max-w-2xl mx-auto mb-8"
           >
-            Profesionální kosmetické služby s individuálním přístupem. 
-            Pečujeme o vaši pleť, aby zářila zdravím a krásou.
+            Klademe důraz na spokojenost zákazníků a plnou profesionalitu poskytovaných služeb při zachování všech hygienických požadavků.
           </motion.p>
           
           <motion.div
@@ -62,7 +61,7 @@ export default function HomePage() {
         <div className="container">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             {[
-              { icon: FlowerLotus, title: "21 let zkušeností", desc: "Profesionální péče" },
+              { icon: FlowerLotus, title: "22 let zkušeností", desc: "Profesionální péče" },
               { icon: HandHeart, title: "Individuální přístup", desc: "Každý klient je jedinečný" },
               { icon: SealCheck, title: "Ověřená kvalita", desc: "Spokojení zákazníci" },
             ].map((item, index) => (
