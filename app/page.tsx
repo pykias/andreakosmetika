@@ -197,14 +197,9 @@ export default function HomePage() {
                     <p className="text-brand-text-light mb-4 italic">
                       "{review.text}"
                     </p>
-                    <div className="flex justify-between items-center">
-                      <span className="font-semibold text-brand-text">
-                        {review.name}
-                      </span>
-                      <span className="text-sm text-brand-text-muted">
-                        {new Date(review.date).toLocaleDateString("cs-CZ")}
-                      </span>
-                    </div>
+                    <span className="font-semibold text-brand-text">
+                      {review.name}
+                    </span>
                   </CardContent>
                 </Card>
               </motion.div>

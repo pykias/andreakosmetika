@@ -240,38 +240,24 @@ export const services: Service[] = [
 export const reviews: Review[] = [
   {
     id: "1",
-    name: "Markéta N.",
+    name: "Veronika Bílovská",
     rating: 5,
-    text: "Skvělý přístup a profesionální služby. Andrea vždy ví, co mé pleti prospěje nejlépe. Vřele doporučuji!",
-    date: "2024-01-15"
+    text: "Jsem moc spokojená. Andrejka je velice šikovná a příjemná. Dokonale vyslechla mé přání. Děkuji jí za to.",
+    date: ""
   },
   {
     id: "2",
-    name: "Jana K.",
+    name: "Barbora Oujeská",
     rating: 5,
-    text: "Navštěvuji salon pravidelně už 3 roky. Vždy odcházím spokojená a relaxovaná. Nejlepší kosmetika ve Starém Lískovci!",
-    date: "2024-01-20"
+    text: "S první návštěvou jsem byla spokojena. Cítila jsem se více sebevědoměji. Pleť jsem měla hezky vyčištěnou a hydratovanou. Andrejka je moc příjemná a šikovná.",
+    date: ""
   },
   {
     id: "3",
-    name: "Petra S.",
+    name: "Martin Hořínek",
     rating: 5,
-    text: "Profesionální přístup, příjemné prostředí a skvělé výsledky. Moje pleť nikdy nevypadala lépe!",
-    date: "2024-01-28"
-  },
-  {
-    id: "4",
-    name: "Lucie M.",
-    rating: 5,
-    text: "Andrea je úžasná kosmetička s mnohaletými zkušenostmi. Vždy poradí, co je pro mou pleť nejlepší.",
-    date: "2024-02-05"
-  },
-  {
-    id: "5",
-    name: "Tereza V.",
-    rating: 5,
-    text: "Doporučila mi kamarádka a nelituji. Příjemná atmosféra a viditelné výsledky už po prvním ošetření.",
-    date: "2024-02-10"
+    text: "Do tohoto salónku jsem přišel s fakt hodně špatným akné, horší stav jsem snad ani neviděl. Už po 6 měsících pravidelného chození ale není skoro poznat, že jsem nějaké akné vůbec měl. Moc se mi líbí přístup – Andrejka je velmi komunikativní, vše srozumitelně vysvětlí a během léčby se průběžně ptá, jestli je všechno v pořádku. Salónek můžu jedině doporučit.",
+    date: ""
   }
 ];
 
@@ -328,7 +314,7 @@ export const salonInfo = {
   ico: "69723320",
   mapUrl: "https://maps.google.com/?q=U+Pošty+2,+Brno-Starý+Lískovec",
   social: {
-    facebook: "https://www.facebook.com/salonandrea",
+    facebook: "https://www.facebook.com/profile.php?id=100063762675215",
     instagram: "https://www.instagram.com/salonandrea",
     google: "https://g.page/salonandrea"
   }

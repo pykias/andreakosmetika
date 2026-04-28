@@ -63,6 +63,16 @@ export default function Footer() {
               </li>
               <li>
                 <a
+                  href={salonInfo.social.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-brand-text-light hover:text-brand-brown transition-colors"
+                >
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a
                   href={salonInfo.social.google}
                   target="_blank"
                   rel="noopener noreferrer"
