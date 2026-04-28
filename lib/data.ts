@@ -146,12 +146,36 @@ export const services: Service[] = [
     price: "1 000 Kč"
   },
   {
-    id: "15",
-    name: "Oživení tvaru a barvy 1 rok",
+    id: "15a",
+    name: "Oživení tvaru a barvy – do 1 roku",
     category: "Permanentní make-up",
-    description: "Od korekce do jednoho roku",
+    description: "Od korekce do jednoho roku.",
     duration: "60 min",
-    price: "1 500Kč"
+    price: "1 500 Kč"
+  },
+  {
+    id: "15b",
+    name: "Oživení tvaru a barvy – do 2 let",
+    category: "Permanentní make-up",
+    description: "Oživení barvy a tvaru ve druhém roce po aplikaci.",
+    duration: "60 min",
+    price: "1 800 Kč"
+  },
+  {
+    id: "15c",
+    name: "Oživení tvaru a barvy – 3 roky a více",
+    category: "Permanentní make-up",
+    description: "Oživení starší aplikace permanentního make-upu (3 roky a více).",
+    duration: "60 min",
+    price: "3 500 Kč"
+  },
+  {
+    id: "15d",
+    name: "Předělávka z jiného salonu",
+    category: "Permanentní make-up",
+    description: "Korekce a předělávka permanentního make-upu provedeného v jiném salonu.",
+    duration: "60 min",
+    price: "+ 20 % k ceně"
   },
   // Odstraňování a korekce
   {

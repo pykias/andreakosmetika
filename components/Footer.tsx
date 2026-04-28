@@ -119,6 +119,42 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border">
+          <h4 className="font-semibold text-brand-text mb-4">Spolupracuji s</h4>
+          <ul className="flex flex-col sm:flex-row sm:flex-wrap gap-x-6 gap-y-2">
+            <li>
+              <a
+                href="https://www.ronec.cz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-brand-text-light hover:text-brand-brown transition-colors"
+              >
+                ronec.cz
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://darkovepotraviny.cz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-brand-text-light hover:text-brand-brown transition-colors"
+              >
+                darkovepotraviny.cz
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.kytkynaceske.cz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-brand-text-light hover:text-brand-brown transition-colors"
+              >
+                kytkynaceske.cz
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="mt-8 pt-8 border-t border-border">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-xs text-brand-text-muted">
               © {new Date().getFullYear()} Salón Andrea Starý Lískovec. Všechna práva vyhrazena.
