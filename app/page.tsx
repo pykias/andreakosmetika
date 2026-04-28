@@ -3,11 +3,31 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { FlowerLotus, HandHeart, SealCheck, Star } from "@phosphor-icons/react";
+import { Facebook } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { services, reviews } from "@/lib/data";
+import { reviews, salonInfo } from "@/lib/data";
 
 export default function HomePage() {
-  const featuredServices = services.slice(0, 3);
+  const featuredServices = [
+    {
+      id: "klasicka-specialni",
+      name: "Klasická a speciální kosmetika",
+      description: "Komplexní péče o pleť a intenzivní speciální ošetření – aqua, antipigmentační i liftingová – pro viditelné výsledky.",
+      duration: "60 min",
+    },
+    {
+      id: "pmu",
+      name: "Permanentní make-up",
+      description: "Oční linky, meziřasová linka i rty – přirozené a dlouhotrvající zvýraznění, které vám ušetří čas i starosti s každodenním líčením.",
+      duration: "60 min",
+    },
+    {
+      id: "laser",
+      name: "Odstranění laserem",
+      description: "Bezpečné a účinné odstranění permanentního make-upu i tetování po těle. Možnost konzultace a individuální plán sezení.",
+      duration: "dle rozsahu",
+    },
+  ];
   const featuredReviews = reviews.slice(0, 3);
 
   return (
@@ -23,9 +43,6 @@ export default function HomePage() {
             className="text-4xl md:text-6xl font-display font-bold text-brand-text mb-6"
           >
             Salón Andrea
-            <span className="block text-2xl md:text-3xl font-normal text-brand-brown mt-2">
-              Starý Lískovec
-            </span>
           </motion.h1>
           
           <motion.p
@@ -192,6 +209,18 @@ export default function HomePage() {
                 </Card>
               </motion.div>
             ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <a
+              href={salonInfo.social.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-medium h-10 px-6 bg-white border border-brand-brown text-brand-brown hover:bg-brand-beige-light transition-all duration-300"
+            >
+              <Facebook className="h-4 w-4" />
+              Více recenzí na Facebooku
+            </a>
           </div>
         </div>
       </section>
