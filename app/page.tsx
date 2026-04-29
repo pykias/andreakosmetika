@@ -13,19 +13,16 @@ export default function HomePage() {
       id: "klasicka-specialni",
       name: "Klasická a speciální kosmetika",
       description: "Komplexní péče o pleť a intenzivní speciální ošetření – aqua, antipigmentační i liftingová – pro viditelné výsledky.",
-      duration: "60 min",
     },
     {
       id: "pmu",
       name: "Permanentní make-up",
       description: "Oční linky, meziřasová linka i rty – přirozené a dlouhotrvající zvýraznění, které vám ušetří čas i starosti s každodenním líčením.",
-      duration: "60 min",
     },
     {
       id: "laser",
       name: "Odstranění laserem",
       description: "Bezpečné a účinné odstranění permanentního make-upu i tetování po těle. Možnost konzultace a individuální plán sezení.",
-      duration: "dle rozsahu",
     },
   ];
   const featuredReviews = reviews.slice(0, 3);
@@ -132,14 +129,9 @@ export default function HomePage() {
                     <h3 className="text-xl font-semibold text-brand-text mb-2">
                       {service.name}
                     </h3>
-                    <p className="text-sm text-brand-text-muted mb-4">
+                    <p className="text-sm text-brand-text-muted">
                       {service.description}
                     </p>
-                    <div className="flex items-center">
-                      <span className="text-sm text-brand-text-muted">
-                        {service.duration}
-                      </span>
-                    </div>
                   </CardContent>
                 </Card>
               </motion.div>

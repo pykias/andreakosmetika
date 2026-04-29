@@ -177,7 +177,7 @@ export default function ContactPage() {
             <div className="space-y-4 text-brand-text-light">
               <p>
                 <strong className="text-brand-text">MHD:</strong> Zastávka Osová
-                (tramvaj č. 6, 7, 8, autobus č.50) - 2 minuty chůze od salonu
+                (tramvaj č. 6, 7, 8), autobus č. 50 zastávka Kosmonautů – 2 minuty chůze od salonu
               </p>
               <p>
                 <strong className="text-brand-text">Parkování:</strong> Možnost 

@@ -67,12 +67,14 @@ export default function ServicesPage() {
                         <p className="text-brand-text-light flex-grow">
                           {service.description}
                         </p>
-                        <div className="flex items-center pt-4 mt-4 border-t border-border">
-                          <span className="text-sm text-brand-text-muted flex items-center gap-1">
-                            <Clock className="h-4 w-4" />
-                            {service.duration}
-                          </span>
-                        </div>
+                        {service.duration && (
+                          <div className="flex items-center pt-4 mt-4 border-t border-border">
+                            <span className="text-sm text-brand-text-muted flex items-center gap-1">
+                              <Clock className="h-4 w-4" />
+                              {service.duration}
+                            </span>
+                          </div>
+                        )}
                       </CardContent>
                     </Card>
                   </motion.div>

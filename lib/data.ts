@@ -3,8 +3,8 @@ export interface Service {
   name: string;
   category: string;
   description: string;
-  duration: string;
   price: string;
+  duration?: string;
 }
 
 export interface Review {
@@ -29,55 +29,54 @@ export const services: Service[] = [
     name: "Klasická kosmetika",
     category: "Kosmetická ošetření",
     description: "Komplexní péče o pleť, která čistí, vyživuje a osvěžuje. Ideální volba pro pravidelnou údržbu a zachování zdravého vzhledu pleti.",
-    duration: "60 min",
-    price: "1 350 Kč"
+    price: "1 350 Kč",
+    duration: "75–90 min"
   },
   {
     id: "2",
     name: "Speciální kosmetika (aqua, antipigmentační, liftingová)",
     category: "Kosmetická ošetření",
     description: "Intenzivní ošetření zaměřené na konkrétní potřeby vaší pleti. Ať už toužíte po hloubkové hydrataci, sjednocení tónu nebo zpevnění kontur, tato péče vám pomůže dosáhnout viditelných výsledků.",
-    duration: "60 min",
-    price: "od 1 550 Kč"
+    price: "od 1 550 Kč",
+    duration: "75–90 min"
   },
   {
     id: "3",
     name: "Chemický peeling",
     category: "Kosmetická ošetření",
     description: "Účinná metoda pro obnovu a rozjasnění pleti. Pomáhá redukovat drobné nedokonalosti, pigmentové skvrny a jemné vrásky, pleť působí hladší a svěžejší.",
-    duration: "60 min",
-    price: "1 700 Kč"
+    price: "1 700 Kč",
+    duration: "75–90 min"
   },
   {
     id: "4",
     name: "Mezoterapie",
     category: "Kosmetická ošetření",
     description: "Revitalizační ošetření, které dodává pleti potřebné živiny přímo tam, kde je potřebuje. Výsledkem je viditelně hydratovaná, pružnější a zářivější pleť.",
-    duration: "60 min",
-    price: "2 200–3 500 Kč"
+    price: "2 200–3 500 Kč",
+    duration: "75–90 min"
   },
   {
     id: "5",
     name: "Carboxy / Hollywood peel",
     category: "Kosmetická ošetření",
     description: "Luxusní ošetření pro okamžitě zářivou a vypnutou pleť. Oblíbená volba před důležitými událostmi, kdy chcete vypadat co nejlépe.",
-    duration: "60 min",
-    price: "1 800 Kč"
+    price: "1 800 Kč",
+    duration: "75–90 min"
   },
   {
     id: "6",
     name: "Studená plazma (součást kosmetiky)",
     category: "Kosmetická ošetření",
     description: "Moderní neinvazivní technologie podporující regeneraci a omlazení pleti. Vhodná pro ty, kdo hledají šetrnou cestu k viditelným výsledkům.",
-    duration: "60 min",
-    price: "1 690 Kč"
+    price: "1 690 Kč",
+    duration: "75–90 min"
   },
   {
     id: "7",
     name: "Studená plazma – samostatně (10 min.)",
     category: "Kosmetická ošetření",
     description: "Cílené ošetření studenou plazmou pro rychlou regeneraci a revitalizaci pleti. Ideální doplněk k pravidelné péči.",
-    duration: "60 min",
     price: "300 Kč"
   },
   {
@@ -85,16 +84,16 @@ export const services: Service[] = [
     name: "Péče o aknózní a problematickou pleť",
     category: "Kosmetická ošetření",
     description: "Specializované ošetření pro pleť náchylnou k nedokonalostem a zánětům. Pomáhá zklidnit, vyčistit a navrátit pleti rovnováhu.",
-    duration: "60 min",
-    price: "1 300–1 500 Kč"
+    price: "1 300–1 500 Kč",
+    duration: "75–90 min"
   },
   {
     id: "9",
     name: "Hydrodermabraze",
     category: "Kosmetická ošetření",
     description: "Šetrná metoda hloubkového čištění a hydratace pleti v jednom. Zanechává pokožku dokonale čistou, jemnou a prosvětlenou.",
-    duration: "60 min",
-    price: "1 450 Kč"
+    price: "1 450 Kč",
+    duration: "75–90 min"
   },
   // Permanentní make-up
   {
@@ -102,7 +101,6 @@ export const services: Service[] = [
     name: "Permanentní make-up – horní oční linky",
     category: "Permanentní make-up",
     description: "Jemné zvýraznění očí, které dodá pohledu hloubku a výraznost. Úspora času při každodenním líčení a dokonalý vzhled za všech okolností.",
-    duration: "60 min",
     price: "2 500 Kč"
   },
   {
@@ -110,7 +108,6 @@ export const services: Service[] = [
     name: "Permanentní make-up – spodní oční linky",
     category: "Permanentní make-up",
     description: "Decentní podtržení spodního víčka pro ucelenější a definovanější pohled. Přirozené zvýraznění, které vydrží.",
-    duration: "60 min",
     price: "2 000 Kč"
   },
   {
@@ -118,7 +115,6 @@ export const services: Service[] = [
     name: "Permanentní make-up – obě linky současně",
     category: "Permanentní make-up",
     description: "Kompletní rámování očí pro maximální efekt a harmonický výraz. Elegantní řešení pro ženy, které chtějí mít oči vždy dokonale zvýrazněné.",
-    duration: "60 min",
     price: "4 000 Kč"
   },
   {
@@ -126,7 +122,6 @@ export const services: Service[] = [
     name: "Permanentní make-up – meziřasová linka",
     category: "Permanentní make-up",
     description: "Nejpřirozenější forma permanentního make-upu očí. Opticky zahušťuje řasy a dodává pohledu jemnou intenzitu bez viditelné linky.",
-    duration: "60 min",
     price: "2 500 Kč"
   },
   {
@@ -134,7 +129,6 @@ export const services: Service[] = [
     name: "Permanentní make-up – rty",
     category: "Permanentní make-up",
     description: "Krásně definované a barevně sjednocené rty, které působí plnějším dojmem. Konec starostí s obtiskávajícím se rtěnkou a nepravidelným obrysem.",
-    duration: "60 min",
     price: "4 900 Kč"
   },
   {
@@ -142,7 +136,6 @@ export const services: Service[] = [
     name: "Korekce PMU (do 4 měsíců)",
     category: "Permanentní make-up",
     description: "Oživení a úprava stávajícího permanentního make-upu. Vrátíme barvu, tvar i svěžest vašemu původnímu ošetření.",
-    duration: "60 min",
     price: "1 000 Kč"
   },
   {
@@ -150,7 +143,6 @@ export const services: Service[] = [
     name: "Oživení tvaru a barvy – do 1 roku",
     category: "Permanentní make-up",
     description: "Od korekce do jednoho roku.",
-    duration: "60 min",
     price: "1 500 Kč"
   },
   {
@@ -158,7 +150,6 @@ export const services: Service[] = [
     name: "Oživení tvaru a barvy – do 2 let",
     category: "Permanentní make-up",
     description: "Oživení barvy a tvaru ve druhém roce po aplikaci.",
-    duration: "60 min",
     price: "1 800 Kč"
   },
   {
@@ -166,7 +157,6 @@ export const services: Service[] = [
     name: "Oživení tvaru a barvy – 3 roky a více",
     category: "Permanentní make-up",
     description: "Oživení starší aplikace permanentního make-upu (3 roky a více).",
-    duration: "60 min",
     price: "3 500 Kč"
   },
   {
@@ -174,7 +164,6 @@ export const services: Service[] = [
     name: "Předělávka z jiného salonu",
     category: "Permanentní make-up",
     description: "Korekce a předělávka permanentního make-upu provedeného v jiném salonu.",
-    duration: "60 min",
     price: "+ 20 % k ceně"
   },
   // Odstraňování a korekce
@@ -183,7 +172,6 @@ export const services: Service[] = [
     name: "Odstraňování PMU",
     category: "Odstraňování a korekce",
     description: "Bezpečná a účinná metoda pro odstranění nežádoucího tetování. Vhodná pro permanentní make-up.",
-    duration: "60 min",
     price: "od 1 200 Kč / sezení"
   },
   {
@@ -191,7 +179,6 @@ export const services: Service[] = [
     name: "Odstraňování laserem tetování po těle",
     category: "Odstraňování a korekce",
     description: "Bezpečná a účinná metoda pro odstranění nežádoucího tetování. Vhodná pro odstranění trvalého tetování po těle.",
-    duration: "60 min",
     price: "od 500 Kč / dle osobní domluvy"
   },
   {
@@ -199,7 +186,6 @@ export const services: Service[] = [
     name: "Chemické zesvětlení tetování",
     category: "Odstraňování a korekce",
     description: "Alternativní způsob redukce pigmentu v nežádoucím tetování. Šetrná volba pro ty, kdo chtějí tetování výrazně zesvětlit nebo připravit na překrytí.",
-    duration: "60 min",
     price: "cena dle rozsahu"
   },
   {
@@ -207,7 +193,6 @@ export const services: Service[] = [
     name: "Odstraňování jizev (akné, operace, úrazy)",
     category: "Speciální procedury",
     description: "Specializovaná péče zaměřená na zmírnění viditelnosti jizev různého původu. Pomáháme pleti obnovit hladší a jednotnější strukturu.",
-    duration: "60 min",
     price: "800–3 500 Kč"
   },
   // Speciální procedury
@@ -216,15 +201,14 @@ export const services: Service[] = [
     name: "Obličejová liftingová masáž",
     category: "Speciální procedury",
     description: "Speciální masážní technika zaměřená na zpevnění a lifting obličejových svalů. Stimuluje krevní oběh, zlepšuje pružnost pleti a pomáhá redukovat známky stárnutí. Lze využít samostatně i jako doplněk ke kosmetickému ošetření. Školení v Liana Academy – Masérské kurzy Brno.",
-    duration: "50 min",
-    price: "1 000 Kč"
+    price: "1 100 Kč",
+    duration: "45 min"
   },
   {
     id: "20",
     name: "Terapie světlem",
     category: "Speciální procedury",
     description: "Moderní fototerapie využívající různé vlnové délky světla pro regeneraci a omlazení pleti. Pomáhá při léčbě akné, pigmentových skvrn a podporuje celkovou revitalizaci pokožky.",
-    duration: "30 min",
     price: "cena dle rozsahu"
   },
   {
@@ -232,7 +216,6 @@ export const services: Service[] = [
     name: "HIFU",
     category: "Speciální procedury",
     description: "Neinvazivní liftingová metoda využívající fokusovaný ultrazvuk pro zpevnění a omlazení pleti. Stimuluje tvorbu kolagenu v hlubších vrstvách kůže pro dlouhotrvající efekt.",
-    duration: "60 min",
     price: "cena dle rozsahu"
   }
 ];
@@ -308,11 +291,11 @@ export const galleryImages: GalleryImage[] = [
 
 export const salonInfo = {
   name: "Salón Andrea Starý Lískovec",
-  address: "U Pošty 2, 625 00 Brno-Starý Lískovec",
+  address: "U Pošty 288/2, 625 00 Brno-Starý Lískovec",
   phone: "+420 604 160 553",
-  email: "info@salonandrea.cz",
+  email: "andrea.breznai@seznam.cz",
   ico: "69723320",
-  mapUrl: "https://maps.google.com/?q=U+Pošty+2,+Brno-Starý+Lískovec",
+  mapUrl: "https://maps.google.com/?q=U+Pošty+288/2,+Brno-Starý+Lískovec",
   social: {
     facebook: "https://www.facebook.com/profile.php?id=100063762675215",
     instagram: "https://www.instagram.com/salonandrea",
