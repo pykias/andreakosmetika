@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Clock, Facebook, Instagram, ExternalLink } from "lucide-react";
 import { salonInfo } from "@/lib/data";
@@ -32,7 +33,16 @@ export default function ContactPage() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <Card>
+            <Card className="overflow-hidden">
+              <div className="relative aspect-[4/3] w-full">
+                <Image
+                  src="/vchodsalon.jpeg"
+                  alt="Vchod do salonu Andrea"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
               <CardContent className="p-8">
                 <h2 className="text-2xl font-display font-semibold text-brand-text mb-6">
                   Kontaktní informace
