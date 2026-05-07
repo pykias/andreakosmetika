@@ -30,7 +30,7 @@ export default function HomePage() {
   return (
     <>
       <section className="relative min-h-[70vh] flex items-center justify-center bg-gradient-to-br from-brand-bg via-white to-brand-bg-soft">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920')] bg-cover bg-center opacity-10" />
+        <div className="absolute inset-0 bg-[url('/salon-interier.webp')] bg-cover bg-center opacity-30" />
         
         <div className="container relative z-10 text-center py-20">
           <motion.h1

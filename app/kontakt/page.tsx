@@ -36,8 +36,8 @@ export default function ContactPage() {
             <Card className="overflow-hidden">
               <div className="relative aspect-[4/3] w-full">
                 <Image
-                  src="/vchodsalon.jpeg"
-                  alt="Vchod do salonu Andrea"
+                  src="/salon-venku.webp"
+                  alt="Salon Andrea zvenku"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"

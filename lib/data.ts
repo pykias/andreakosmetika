@@ -246,46 +246,34 @@ export const reviews: Review[] = [
 
 export const galleryImages: GalleryImage[] = [
   {
-    id: "1",
-    src: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800",
-    alt: "Kosmetické ošetření",
-    category: "Ošetření"
-  },
-  {
-    id: "2",
-    src: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800",
-    alt: "Relaxační masáž",
-    category: "Masáže"
-  },
-  {
-    id: "3",
-    src: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800",
-    alt: "Kosmetické produkty",
-    category: "Produkty"
-  },
-  {
-    id: "4",
-    src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800",
-    alt: "Interiér salonu",
-    category: "Salon"
-  },
-  {
-    id: "5",
-    src: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=800",
-    alt: "Permanentní makeup",
-    category: "Makeup"
-  },
-  {
-    id: "6",
-    src: "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=800",
-    alt: "Kosmetické křeslo",
-    category: "Salon"
-  },
-  {
     id: "7",
     src: "/red_light-ak.webp",
     alt: "Terapie červeným světlem",
     category: "Ošetření"
+  },
+  {
+    id: "8",
+    src: "/salon-interier.webp",
+    alt: "Interiér salonu Andrea",
+    category: "Salon"
+  },
+  {
+    id: "9",
+    src: "/salon-interier-2.webp",
+    alt: "Interiér salonu Andrea",
+    category: "Salon"
+  },
+  {
+    id: "10",
+    src: "/salon-lehatko.webp",
+    alt: "Kosmetické lehátko v salonu",
+    category: "Salon"
+  },
+  {
+    id: "11",
+    src: "/salon-venku.webp",
+    alt: "Salon Andrea zvenku",
+    category: "Salon"
   }
 ];
 
