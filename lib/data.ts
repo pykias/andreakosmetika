@@ -286,7 +286,6 @@ export const salonInfo = {
   mapUrl: "https://maps.google.com/?q=U+Pošty+288/2,+Brno-Starý+Lískovec",
   social: {
     facebook: "https://www.facebook.com/profile.php?id=100063762675215",
-    instagram: "https://www.instagram.com/salonandrea",
     google: "https://g.page/salonandrea"
   }
 };

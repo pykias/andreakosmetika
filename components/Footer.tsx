@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Facebook, Instagram, MapPin, Phone, Clock, Mail } from "lucide-react";
+import { Facebook, MapPin, Phone, Clock, Mail } from "lucide-react";
 import { salonInfo } from "@/lib/data";
 
 export default function Footer() {
@@ -22,14 +22,6 @@ export default function Footer() {
                 className="text-brand-text-light hover:text-brand-brown transition-colors"
               >
                 <Facebook className="h-5 w-5" />
-              </a>
-              <a
-                href={salonInfo.social.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-brand-text-light hover:text-brand-brown transition-colors"
-              >
-                <Instagram className="h-5 w-5" />
               </a>
             </div>
           </div>

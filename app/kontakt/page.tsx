@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Clock, Facebook, Instagram, ExternalLink } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Facebook, ExternalLink } from "lucide-react";
 import { salonInfo } from "@/lib/data";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -103,15 +103,6 @@ export default function ContactPage() {
                     >
                       <Facebook className="h-5 w-5 text-brand-brown" />
                       <span className="text-sm text-brand-text">Facebook</span>
-                    </a>
-                    <a
-                      href={salonInfo.social.instagram}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-4 py-2 bg-brand-bg-soft rounded-lg hover:bg-brand-beige-light transition-colors"
-                    >
-                      <Instagram className="h-5 w-5 text-brand-brown" />
-                      <span className="text-sm text-brand-text">Instagram</span>
                     </a>
                   </div>
                 </div>
