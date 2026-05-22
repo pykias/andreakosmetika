@@ -62,7 +62,7 @@ export default function AboutPage() {
             className="relative h-[400px] rounded-2xl overflow-hidden"
           >
             <Image
-              src="/salon_brno.jpg"
+              src="/andreaportret.jpeg"
               alt="Salón Andrea Starý Lískovec"
               fill
               className="object-cover"
