@@ -59,13 +59,14 @@ export default function AboutPage() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="relative h-[400px] rounded-2xl overflow-hidden"
+            className="relative flex justify-center"
           >
             <Image
               src="/andreaportret.jpeg"
               alt="Salón Andrea Starý Lískovec"
-              fill
-              className="object-cover"
+              width={800}
+              height={1000}
+              className="w-2/3 h-auto rounded-2xl object-cover"
             />
           </motion.div>
         </div>
