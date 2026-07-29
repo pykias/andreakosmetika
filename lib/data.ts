@@ -97,6 +97,20 @@ export const services: Service[] = [
   },
   // Permanentní make-up
   {
+    id: "9a",
+    name: "Permanentní make-up – obočí (pudrové, stínované)",
+    category: "Permanentní make-up",
+    description: "Jemně stínované obočí s přirozeným pudrovým efektem. Dokonalý tvar a sytost, které vydrží a nepotřebují každodenní dokreslování.",
+    price: "4 000 Kč"
+  },
+  {
+    id: "9b",
+    name: "Korekce obočí (do 4 měsíců)",
+    category: "Permanentní make-up",
+    description: "Doladění tvaru a barvy pudrového obočí do 4 měsíců od aplikace.",
+    price: "500 Kč"
+  },
+  {
     id: "10",
     name: "Permanentní make-up – horní oční linky",
     category: "Permanentní make-up",
